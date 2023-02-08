@@ -17,7 +17,7 @@
 }
 
 .navbar-mobile {
-  align-items: center;
+  align-items: ceznter;
 }
 
 .logo img {
@@ -38,6 +38,7 @@
 
 .carousel-item {
   background: url("./assets/background-example.jpg") no-repeat top center;
+  background-size: cover;
   width: 100%;
   height: 100vh;
 }
@@ -79,6 +80,183 @@
   font-size: 16px;
 }
 
+.wpp-button {
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.wpp-button img {
+  width: 50px;
+  height: 50px;
+}
+
+/*build-your-project*/
+
+#build-your-project {
+  background-color: #000;
+}
+
+#build-your-project .byp-cover {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background: url("./assets/cover-example.jpg") no-repeat center center;
+}
+
+.title-byp {
+  text-align: start;
+  color: white;
+}
+
+.btn-byp {
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  padding: 15px 20px;
+  width: 300px;
+}
+
+.btn-byp p {
+  margin-bottom: 0;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.byp-content {
+  max-width: 700px;
+  padding: 20px;
+}
+
+.byp-content-title {
+  color: #88ca68;
+  font-size: 20px;
+}
+
+.byp-content-desc {
+  color: #fff;
+  font-size: 16px;
+}
+
+/*projects*/
+
+
+
+@media (min-width: 280px) {
+  .logo img {
+    height: 70px;
+  }
+
+  .title-main {
+    font-size: 28px;
+  }
+  .desc-home {
+    font-size: 18px;
+  }
+
+  .title-box {
+    font-size: 20px;
+  }
+
+  .desc-box {
+    font-size: 12px;
+  }
+
+  .wpp-button {
+    bottom: 230px;
+    left: 10px;
+  }
+
+  #build-your-project {
+    flex-direction: column !important;
+  }
+
+  .title-byp {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .btn-byp {
+    padding: 15px 15px;
+    width: 200px;
+  }
+
+  .btn-byp p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 340px) {
+  .logo img {
+    height: 100px;
+  }
+
+  .title-main {
+    font-size: 34px;
+  }
+  .desc-home {
+    font-size: 20px;
+  }
+
+  .title-box {
+    font-size: 24px;
+  }
+
+  .desc-box {
+    font-size: 14px;
+  }
+
+  .wpp-button {
+    bottom: 280px;
+  }
+
+  .title-byp {
+    font-size: 34px;
+  }
+
+  .btn-byp {
+    width: 240px;
+  }
+}
+
+@media (min-width: 400px) {
+  .logo img {
+    height: 100px;
+  }
+
+  .title-main {
+    font-size: 40px;
+  }
+
+  .desc-home {
+    font-size: 20px;
+  }
+
+  .title-box {
+    font-size: 28px;
+  }
+
+  .desc-box {
+    font-size: 16px;
+  }
+
+  .wpp-button {
+    bottom: 300px;
+  }
+
+  .title-byp {
+    font-size: 40px;
+  }
+
+  .btn-byp {
+    padding: 15px 15px;
+    width: 250px;
+  }
+}
+
 @media (min-width: 500px) {
   .logo img {
     height: 100px;
@@ -91,15 +269,48 @@
   .title-main {
     font-size: 50px;
   }
+  .desc-home {
+    font-size: 24px;
+  }
+
+  .wpp-button {
+    bottom: 10px;
+  }
+
+  .title-byp {
+    font-size: 50px;
+  }
+
+  .btn-byp {
+    padding: 15px 20px;
+    width: 300px;
+  }
 }
 
+@media (min-width: 600px) {
+  .title-main {
+    font-size: 60px;
+  }
+
+  .title-byp {
+    font-size: 70px;
+  }
+
+  .title-byp {
+    font-size: 60px;
+  }
+}
 @media (min-width: 768px) {
   .menuHamburguer {
     display: none;
   }
 
   .title-main {
-    font-size: 50px;
+    font-size: 70px;
+  }
+
+  .title-byp {
+    font-size: 70px;
   }
 }
 
@@ -109,13 +320,19 @@
   }
 }
 
+@media (min-width: 900px) {
+  .title-main {
+    font-size: 80px;
+  }
+}
+
 @media (min-width: 992px) {
   .logo img {
     height: 120px;
   }
 
   .title-main {
-    font-size: 80px;
+    font-size: 90px;
   }
 
   .nav-link {
@@ -123,7 +340,22 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1040px) {
+  #build-your-project {
+    flex-direction: row !important;
+  }
+
+  .byp-cover {
+    width: 60% !important;
+  }
+
+  .byp-content {
+    width: 40% !important;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
   .navbar {
     margin-right: 50px;
   }
