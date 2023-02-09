@@ -1,0 +1,358 @@
+@media (min-width: 280px) {
+  .logo img {
+    height: 70px;
+  }
+
+  .title-main {
+    font-size: 28px;
+  }
+  .desc-home {
+    font-size: 18px;
+  }
+
+  .title-box {
+    font-size: 20px;
+  }
+
+  .desc-box {
+    font-size: 12px;
+  }
+
+  .wpp-button {
+    bottom: 230px;
+    left: 10px;
+  }
+
+  #build-your-project {
+    flex-direction: column !important;
+  }
+
+  .title-byp {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .btn-byp {
+    padding: 15px 15px;
+    width: 200px;
+  }
+
+  .btn-byp p {
+    font-size: 20px;
+  }
+
+  .cim-img img {
+    width: 60px;
+  }
+
+  .cim-title {
+    font-size: 18px;
+  }
+
+  .cim-desc {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .card-project {
+    max-width: 250px;
+  }
+
+  .icons img {
+    width: 20px;
+  }
+
+  .icons p {
+    font-size: 12px;
+  }
+
+  .cards-project {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-btn {
+    font-size: 16px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer .logo img {
+    height: 100px;
+  }
+}
+
+@media (min-width: 340px) {
+  .logo img {
+    height: 100px;
+  }
+
+  .title-main {
+    font-size: 340px;
+  }
+  .desc-home {
+    font-size: 20px;
+  }
+
+  .title-box {
+    font-size: 4px;
+  }
+
+  .desc-box {
+    font-size: 14px;
+  }
+
+  .wpp-button {
+    bottom: 280px;
+  }
+
+  .title-byp {
+    font-size: 34px;
+  }
+
+  .btn-byp {
+    width: 240px;
+  }
+
+  .card-image img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) {
+  .logo img {
+    height: 100px;
+  }
+
+  .title-main {
+    font-size: 40px;
+  }
+
+  .desc-home {
+    font-size: 20px;
+  }
+
+  .title-box {
+    font-size: 28px;
+  }
+
+  .desc-box {
+    font-size: 16px;
+  }
+
+  .wpp-button {
+    bottom: 300px;
+  }
+
+  .title-byp {
+    font-size: 40px;
+  }
+
+  .btn-byp {
+    padding: 15px 15px;
+    width: 250px;
+  }
+
+  .card-project {
+    max-width: 400px;
+  }
+
+  .icons img {
+    width: 30px;
+  }
+
+  .icon-text {
+    font-size: 14px;
+    margin-bottom: 0 !important;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 500px) {
+  .logo img {
+    height: 100px;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .title-main {
+    font-size: 50px;
+  }
+  .desc-home {
+    font-size: 24px;
+  }
+
+  .wpp-button {
+    bottom: 10px;
+  }
+
+  .title-byp {
+    font-size: 50px;
+  }
+
+  .btn-byp {
+    padding: 15px 20px;
+    width: 300px;
+  }
+
+  .mi-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cim-img img {
+    width: 50px;
+  }
+
+  .cim-desc {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 600px) {
+  .title-main {
+    font-size: 60px;
+  }
+
+  .title-byp {
+    font-size: 70px;
+  }
+
+  .title-byp {
+    font-size: 60px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .footer .logo img {
+    height: 120px;
+  }
+}
+@media (min-width: 768px) {
+  .menuHamburguer {
+    display: none;
+  }
+
+  .title-main {
+    font-size: 70px;
+  }
+
+  .title-byp {
+    font-size: 70px;
+  }
+
+  .cim-img img {
+    width: 70px;
+  }
+
+  .cim-title {
+    font-size: 20px;
+  }
+
+  .cim-desc {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .cards-project {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .filter-btn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-desktop > .nav-item {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .title-main {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo img {
+    height: 120px;
+  }
+
+  .title-main {
+    font-size: 90px;
+  }
+
+  .nav-link {
+    font-size: 24px;
+  }
+
+  .mi-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .footer .logo img {
+    height: 100px;
+  }
+}
+
+@media (min-width: 1040px) {
+  #build-your-project {
+    flex-direction: row !important;
+  }
+
+  .byp-cover {
+    width: 60% !important;
+  }
+
+  .byp-content {
+    width: 40% !important;
+    padding: 30px;
+  }
+
+  .box-mi-title {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .navbar {
+    margin-right: 50px;
+  }
+
+  .logo img {
+    height: 150px;
+  }
+
+  .title-main {
+    font-size: 100px;
+  }
+
+  .nav-link {
+    font-size: 28px;
+  }
+
+  .cards-project {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .cim-desc {
+    margin-bottom: 0 !important;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+  }
+}
