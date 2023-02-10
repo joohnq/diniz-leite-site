@@ -5,20 +5,11 @@
   box-sizing: border-box;
 }
 
-#projectInfo {
-  padding: 0 50px;
-}
-
-#projectInfo .projectImage {
-  width: 70%;
-}
-
 #projectInfo .projectImage img {
   width: 100%;
 }
 
 #projectInfo .projectTitle {
-  font-size: 50px;
   font-family: serif;
 }
 
@@ -27,17 +18,16 @@
 }
 
 #projectInfo .projectContent {
-  width: 30%;
+  width: 40%;
 }
 
 #projectInfo .projectValue {
-  font-size: 30px;
   font-weight: bold;
+  margin: 20px 0 20px;
 }
 
 #projectInfo .projectDescription {
   font-weight: bold;
-  font-size: 24px;
 }
 
 #projectInfo .projectGreenColor {
@@ -47,17 +37,14 @@
 #projectInfo .project-card {
   background-color: #d9d9d9;
   padding: 10px;
-}
-
-#projectInfo .project-card img {
-  width: 40px;
+  max-width: 400px;
 }
 
 #projectInfo .projectCardDesc {
   background-color: #000;
   color: #fff;
   width: 100%;
-  padding: 15px 200px 15px 20px;
+  padding: 15px 20px 15px 20px;
   font-size: 20px;
   margin-bottom: 0 !important;
 }

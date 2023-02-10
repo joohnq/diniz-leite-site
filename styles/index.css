@@ -47,7 +47,7 @@
 }
 
 #homeCarousel .carousel-item {
-  background: url("./assets/background-example.jpg") no-repeat top center;
+  background: url("../assets/background-example.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -82,7 +82,7 @@
 
 #homeCarousel .wpp-button {
   padding: 10px;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   background-color: black;
   border-radius: 50%;
@@ -103,7 +103,7 @@
   width: 100%;
   height: 700px;
   position: relative;
-  background: url("./assets/cover-example.jpg") no-repeat center center;
+  background: url("../assets/cover-example.jpg") no-repeat center center;
 }
 
 #build-your-project .title-byp {
