@@ -29,44 +29,36 @@
 }
 
 .dPCard {
-  margin: 50px auto;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .face {
   width: 300px;
   height: 400px;
-  perspective: 700px;
-}
-
-.front,
-.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  transition: 700ms;
 }
 
 .front {
   background: url("../assets/background-example.jpg") no-repeat center center;
   background-size: cover;
-  z-index: 1;
+  transform: rotateY(180deg);
+  position: relative;
 }
 
 .back {
-  background: #000;
-  transform: rotateY(-180deg);
+  background-color: #000;
   backface-visibility: hidden;
-  color: #fff;
+  padding: 10px;
 }
 
-.face:hover > .front {
+.flip {
   transform: rotateY(180deg);
-  z-index: 0;
-}
-
-.face:hover > .back {
-  transform: rotateY(0);
-  z-index: 1;
+  transition: 0.5s all;
 }
