@@ -1,0 +1,43 @@
+#projectInfo .projectImage img {
+  width: 100%;
+}
+
+#projectInfo .projectTitle {
+  font-family: serif;
+}
+
+#projectInfo .projectTitle::before {
+  content: "| ";
+}
+
+#projectInfo .projectContent {
+  width: 40%;
+}
+
+#projectInfo .projectValue {
+  font-weight: bold;
+  margin: 20px 0 20px;
+}
+
+#projectInfo .projectDescription {
+  font-weight: bold;
+}
+
+#projectInfo .projectGreenColor {
+  color: #9bcd68;
+}
+
+#projectInfo .project-card {
+  background-color: #d9d9d9;
+  padding: 10px;
+  max-width: 400px;
+}
+
+#projectInfo .projectCardDesc {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 15px 20px 15px 20px;
+  font-size: 20px;
+  margin-bottom: 0 !important;
+}

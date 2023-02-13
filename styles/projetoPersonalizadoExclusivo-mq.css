@@ -1,0 +1,164 @@
+@media (min-width: 0px) {
+  #projectPE .projectPETitle {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  #projectPE .box-green {
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+  }
+
+  #projectPE .btn-box-green {
+    font-size: 16px;
+  }
+
+  .projectPersonalizadoDesc {
+    font-size: 14px;
+    padding: 2px;
+  }
+
+  #projectForm {
+    padding: 10px;
+  }
+
+  #projectForm > div {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  #projectForm .projectFormInputs {
+    width: 100%;
+  }
+
+  #projectForm .projectFormTitle {
+    text-align: center;
+  }
+
+  #projectForm .projectFormLabel {
+    font-size: 16px;
+  }
+
+  #projectForm .projectFormImage {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #projectForm .projectFormImage img {
+    width: 100%;
+  }
+
+  #projectForm .projectFormBtn {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 340px) {
+  #projectPE .projectPETitle {
+    font-size: 18px;
+  }
+
+  #projectPE .btn-box-green {
+    font-size: 18px;
+  }
+
+  .projectPersonalizadoDesc {
+    font-size: 14px;
+    padding: 2px;
+    margin-bottom: 20px;
+  }
+
+  #projectForm .projectFormTitle {
+    font-size: 30px;
+  }
+
+  #projectForm .projectFormLabel {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 400px) {
+  #projectPE .projectPETitle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 500px) {
+  #projectPE .projectPETitle {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  #projectPE .box-green {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+  }
+
+  #projectPE .btn-box-green {
+    font-size: 20px;
+  }
+
+  .projectPETitle {
+    font-size: 30px;
+  }
+
+  .projectPersonalizadoDesc {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #projectForm .projectFormLabel {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  #projectPE .box-green {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .projectPETitle {
+    font-size: 40px;
+    max-width: 600px;
+  }
+
+  .projectPersonalizadoDesc {
+    font-size: 20px;
+  }
+
+  #projectForm {
+    padding: 50px;
+  }
+
+  #projectForm .projectFormLabel {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  #projectForm > div {
+    flex-direction: row;
+  }
+
+  #projectForm .projectFormTitle {
+    text-align: start;
+  }
+
+  #projectForm .projectFormBtn {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1040px) {
+}
+
+@media (min-width: 1280px) {
+}

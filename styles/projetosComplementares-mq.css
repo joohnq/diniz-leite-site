@@ -1,0 +1,20 @@
+@media (min-width: 0px) {
+  #projetosComplementares .projetosCCards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #projetosComplementares .projetosCCards {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #projetosComplementares .projetosCCards {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+}

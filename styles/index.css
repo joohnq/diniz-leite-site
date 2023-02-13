@@ -13,7 +13,6 @@
 
 #header .navbar-desktop {
   flex-direction: row !important;
-  gap: 10px;
 }
 
 #header .navbar-mobile {
@@ -28,7 +27,7 @@
   text-decoration: underline !important;
   color: black;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #header .menuHamburguer img {
@@ -112,18 +111,17 @@
 }
 
 #build-your-project .btn-byp {
-  color: #fff;
   border: 2px solid #fff;
   background: transparent;
   padding: 15px 20px;
   width: 300px;
 }
 
-#build-your-project .btn-byp p {
+#build-your-project .btn-byp {
   margin-bottom: 0;
   font-size: 20px;
   text-decoration: underline;
-  text-align: center;
+  color: #fff !important;
 }
 
 #build-your-project .byp-content {

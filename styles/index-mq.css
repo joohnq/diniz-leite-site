@@ -242,6 +242,10 @@
     display: none;
   }
 
+  #header .navbar-desktop {
+    gap: 10px;
+  }
+
   #homeCarousel .title-main {
     font-size: 70px;
   }
@@ -279,6 +283,14 @@
 }
 
 @media (min-width: 900px) {
+  #header .nav-link {
+    font-size: 22px;
+  }
+
+  #header .navbar-desktop {
+    gap: 30px;
+  }
+
   #homeCarousel .title-main {
     font-size: 80px;
   }

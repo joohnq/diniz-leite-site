@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/index-mq.css" />
+    <link rel="stylesheet" href="./styles/global.css">
   </head>
 
   <body>
@@ -35,8 +36,33 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <ul class="navbar-nav navbar-desktop me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link">Projetos</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Projetos</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#projects">Projetos Prontos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./projetoPersonalizado.html"
+                    >Projeto Personalizados</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./projetosComplementares.html">Projeto Complementares</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Projeto Comerciais</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./demaisProjetos.html">Demais Projetos</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Área do cliente</a>
@@ -44,8 +70,32 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Saiba Mais</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Saiba Mais</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Dúvidas Frequentes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Contato</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Sobre Nós</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Como Funciona</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Demais Projetos</a>
+                </li>
+              </ul>
             </li>
             <li
               class="menuHamburguer"
@@ -79,8 +129,33 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav navbar-mobile me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link">Projetos</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Projetos</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#projects">Projetos Prontos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./projetoPersonalizado.html"
+                    >Projeto Personalizados</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Projeto Complementares</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Projeto Comerciais</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Demais Projetos</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Área do cliente</a>
@@ -88,8 +163,32 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Saiba Mais</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Saiba Mais</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Dúvidas Frequentes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Contato</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Sobre Nós</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Como Funciona</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Demais Projetos</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -152,15 +251,19 @@
             PROJETO
           </h2>
           <div class="d-flex flex-column w-50 ms-4 mt-4 gap-4">
-            <div class="btn-byp">
-              <p>Projeto Pronto</p>
-            </div>
-            <div class="btn-byp">
-              <p>Projeto Personalizado</p>
-            </div>
-            <div class="btn-byp">
-              <p>Projeto Exclusivo</p>
-            </div>
+            <a class="text-decoration-none btn-byp" href="#projects"
+              >Projeto Pronto</a
+            >
+            <a
+              class="text-decoration-none btn-byp"
+              href="./projetoPersonalizado.html"
+              >Projeto Personalizado</a
+            >
+            <a
+              class="text-decoration-none btn-byp"
+              href="./projetoExclusivo.html"
+              >Projeto Exclusivo</a
+            >
           </div>
         </div>
         <div
@@ -195,7 +298,7 @@
           </div>
         </div>
       </section>
-      <section class="projects container" id="projects">
+      <section class="projects" id="projects">
         <div class="more-infos">
           <div
             class="box-mi-title"
@@ -205,9 +308,8 @@
             aria-expanded="false"
             aria-controls="collapseExample"
           >
-            <h2 class="more-infos-title">
+            <h2 class="more-infos-title dropdown-toggle">
               Adicione algumas informações
-              <img src="assets/arrow-down.png" alt="Abrir Collapse" />
             </h2>
           </div>
           <div class="collapse" id="collapseExample">
