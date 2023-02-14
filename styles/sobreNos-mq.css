@@ -1,0 +1,116 @@
+@media (min-width: 0px) {
+  main {
+    height: 100%;
+    background-color: #000;
+  }
+  .sobreNosDesc {
+    font-size: 16px;
+  }
+
+  .sNListNumber {
+    font-size: 24px;
+  }
+
+  .sNListDesc {
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 340px) {
+  .sobreNosTitle {
+    font-size: 38px;
+  }
+
+  .sNListNumber {
+    font-size: 28px;
+  }
+
+  .sNListDesc {
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 400px) {
+  .sobreNosTitle {
+    font-size: 44px;
+  }
+  .sobreNosDesc {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 500px) {
+  .sobreNosTitle {
+    font-size: 50px;
+  }
+  .sobreNosDesc {
+    font-size: 20px;
+  }
+
+  .sNListNumber {
+    font-size: 30px;
+  }
+
+  .sNListDesc {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .sobreNosTitle {
+    font-size: 50px;
+  }
+  .sobreNosDesc {
+    font-size: 20px;
+  }
+
+  .sNListNumber {
+    font-size: 40px;
+  }
+
+  .sNListDesc {
+    color: #fff;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1040px) {
+  main {
+    height: 100vh;
+    background-color: #000;
+  }
+  #sobreNos {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .sobreNosImage img {
+    width: 100%;
+  }
+
+  .sobreNosImage {
+    width: 60%;
+  }
+
+  .sobreNosContent {
+    width: 40%;
+  }
+
+  .sobreNosTitle {
+    font-size: 50px;
+  }
+  .sobreNosDesc {
+    font-size: 20px;
+  }
+
+  .sNListNumber {
+    font-size: 40px;
+  }
+
+  .sNListDesc {
+    color: #fff;
+    font-size: 24px;
+  }
+}

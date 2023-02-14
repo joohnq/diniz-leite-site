@@ -1,0 +1,44 @@
+main {
+  height: 100;
+  background-color: #000;
+}
+#sobreNos {
+  background-color: #000;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sobreNosImage img {
+  width: 100%;
+}
+.sobreNosTitle {
+  color: #fff;
+  padding: 30px 0;
+  border-bottom: 3px solid #769c4f;
+  font-family: serif;
+}
+
+.sobreNosDesc {
+  color: #fff;
+  padding: 30px 0;
+  max-width: 800px;
+}
+/* 
+.sobreNosDesc::first-letter {
+  margin-left: 100px;
+} */
+
+.sobreNosList {
+  padding-left: 0 !important;
+}
+
+.sNListNumber {
+  color: #464c40;
+}
+
+.sNListDesc {
+  color: #fff;
+}

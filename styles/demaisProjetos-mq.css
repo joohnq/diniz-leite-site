@@ -1,58 +1,58 @@
 @media (min-width: 0px) {
-  #demaisProjetos .dPCards {
-    grid-template-columns: 1fr;
+    #demaisProjetos .dPCards {
+      grid-template-columns: 1fr;
+    }
+  
+    #demaisProjetos .demaisProjetosTitle {
+      font-size: 26px;
+    }
+  
+    #demaisProjetos .demaisProjetosDesc {
+      text-align: center;
+      font-size: 14px;
+    }
   }
-
-  #demaisProjetos .demaisProjetosTitle {
-    font-size: 26px;
+  
+  @media (min-width: 340px) {
+    #demaisProjetos .demaisProjetosTitle {
+      font-size: 34px;
+    }
+  
+    #demaisProjetos .demaisProjetosDesc {
+      font-size: 16px;
+    }
   }
-
-  #demaisProjetos .demaisProjetosDesc {
-    text-align: center;
-    font-size: 14px;
+  
+  @media (min-width: 400px) {
+    #demaisProjetos .demaisProjetosTitle {
+      font-size: 38px;
+    }
   }
-}
-
-@media (min-width: 340px) {
-  #demaisProjetos .demaisProjetosTitle {
-    font-size: 34px;
+  
+  @media (min-width: 500px) {
+    #demaisProjetos .demaisProjetosTitle {
+      font-size: 50px;
+    }
+  
+    #demaisProjetos .demaisProjetosDesc {
+      font-size: 20px;
+    }
   }
-
-  #demaisProjetos .demaisProjetosDesc {
-    font-size: 16px;
+  
+  @media (min-width: 768px) {
+    #demaisProjetos .dPCards {
+      grid-template-columns: 1fr 1fr;
+    }
   }
-}
-
-@media (min-width: 400px) {
-  #demaisProjetos .demaisProjetosTitle {
-    font-size: 38px;
+  
+  @media (min-width: 992px) {
+    #demaisProjetos .dPCards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   }
-}
-
-@media (min-width: 500px) {
-  #demaisProjetos .demaisProjetosTitle {
-    font-size: 50px;
+  
+  @media (min-width: 1280px) {
+    #demaisProjetos .dPCards {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
-
-  #demaisProjetos .demaisProjetosDesc {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 768px) {
-  #demaisProjetos .dPCards {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 992px) {
-  #demaisProjetos .dPCards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (min-width: 1280px) {
-  #demaisProjetos .dPCards {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}

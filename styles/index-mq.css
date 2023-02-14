@@ -1,4 +1,4 @@
-@media (min-width: 280px) {
+@media (min-width: 0px) {
   #header .logo img {
     height: 70px;
   }
@@ -8,7 +8,7 @@
   }
 
   #homeCarousel .desc-home {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #homeCarousel .title-box {
@@ -17,11 +17,6 @@
 
   #homeCarousel .desc-box {
     font-size: 12px;
-  }
-
-  #homeCarousel .wpp-button {
-    bottom: 230px;
-    left: 10px;
   }
 
   #build-your-project {
@@ -40,6 +35,10 @@
 
   #build-your-project .btn-byp p {
     font-size: 20px;
+  }
+
+  #projects .more-infos-title {
+    font-size: 20px !important;
   }
 
   #projects .cim-img img {
@@ -61,10 +60,22 @@
 
   #projects .cards-project {
     grid-template-columns: 1fr;
+    padding: 10px;
   }
 
   #projects .card-project {
-    max-width: 250px;
+    width: 100%;
+  }
+
+  #projects .card-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #projects .icons {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
   }
 
   #projects .icons img {
@@ -81,7 +92,14 @@
   }
 
   #footer .logo img {
-    height: 100px;
+    height: 70px;
+  }
+}
+@media (min-width: 280px) {
+  #projects .icons {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
   }
 }
 
@@ -91,11 +109,11 @@
   }
 
   #homeCarousel .title-main {
-    font-size: 340px;
+    font-size: 34px;
   }
 
   #homeCarousel .desc-home {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   #homeCarousel .title-box {
@@ -106,10 +124,6 @@
     font-size: 14px;
   }
 
-  #homeCarousel .wpp-button {
-    bottom: 280px;
-  }
-
   #build-your-project .title-byp {
     font-size: 34px;
   }
@@ -118,8 +132,16 @@
     width: 240px;
   }
 
+  #projects .more-infos-title {
+    font-size: 22px !important;
+  }
+
   #projects .card-image img {
     width: 100%;
+  }
+
+  #footer .logo img {
+    height: 100px;
   }
 }
 
@@ -144,10 +166,6 @@
     font-size: 16px;
   }
 
-  #homeCarousel .wpp-button {
-    bottom: 300px;
-  }
-
   #build-your-project .title-byp {
     font-size: 40px;
   }
@@ -155,6 +173,10 @@
   #build-your-project .btn-byp {
     padding: 15px 15px;
     width: 250px;
+  }
+
+  #projects .more-infos-title {
+    font-size: 24px !important;
   }
 
   #projects .card-project {
@@ -188,10 +210,6 @@
     font-size: 24px;
   }
 
-  #homeCarousel .wpp-button {
-    bottom: 10px;
-  }
-
   #build-your-project .title-byp {
     font-size: 50px;
   }
@@ -199,6 +217,10 @@
   #build-your-project .btn-byp {
     padding: 15px 20px;
     width: 300px;
+  }
+
+  #projects .more-infos-title {
+    font-size: 28px !important;
   }
 
   #projects .mi-cards {

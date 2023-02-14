@@ -1,0 +1,23 @@
+@media (min-width: 0px) {
+  #contato .contatoTitle {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 340px) {
+  #contato .contatoTitle {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 400px) {
+  #contato .contatoTitle {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contato .contatoTitle {
+    font-size: 50px;
+  }
+}
