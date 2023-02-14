@@ -1,69 +1,58 @@
 @media (min-width: 0px) {
-  .dPCards {
+  #demaisProjetos .dPCards {
     grid-template-columns: 1fr;
   }
 
-  .demaisProjetosTitle {
+  #demaisProjetos .demaisProjetosTitle {
     font-size: 26px;
   }
 
-  .demaisProjetosDesc {
+  #demaisProjetos .demaisProjetosDesc {
     text-align: center;
     font-size: 14px;
   }
 }
 
 @media (min-width: 340px) {
-  .demaisProjetosTitle {
+  #demaisProjetos .demaisProjetosTitle {
     font-size: 34px;
   }
 
-  .demaisProjetosDesc {
+  #demaisProjetos .demaisProjetosDesc {
     font-size: 16px;
   }
 }
 
 @media (min-width: 400px) {
-  .demaisProjetosTitle {
+  #demaisProjetos .demaisProjetosTitle {
     font-size: 38px;
   }
 }
 
 @media (min-width: 500px) {
-  .demaisProjetosTitle {
+  #demaisProjetos .demaisProjetosTitle {
     font-size: 50px;
   }
 
-  .demaisProjetosDesc {
+  #demaisProjetos .demaisProjetosDesc {
     font-size: 20px;
   }
 }
 
-@media (min-width: 600px) {
-}
 @media (min-width: 768px) {
-  .dPCards {
+  #demaisProjetos .dPCards {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width: 768px) {
-}
-
-@media (min-width: 900px) {
-}
-
 @media (min-width: 992px) {
-  .dPCards {
+  #demaisProjetos .dPCards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (min-width: 1040px) {
-}
-
 @media (min-width: 1280px) {
-  .dPCards {
+  #demaisProjetos .dPCards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

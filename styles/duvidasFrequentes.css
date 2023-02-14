@@ -1,0 +1,15 @@
+#duvidasFrequentes .dFTitle {
+  text-align: center;
+  padding: 30px 0;
+  font-family: serif;
+}
+
+#duvidasFrequentes .dFSubtitle {
+  color: #3e571b;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#duvidasFrequentes .dFDesc {
+  font-weight: 600;
+}
