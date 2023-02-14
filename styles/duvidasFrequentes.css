@@ -1,3 +1,19 @@
+#duvidasFrequentes {
+  background: url("../assets/cover-example.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#duvidasFrequentes .duvidasFrequentesContent {
+  background-color: #fff;
+  padding: 20px;
+}
+
 #duvidasFrequentes .dFTitle {
   text-align: center;
   padding: 30px 0;
