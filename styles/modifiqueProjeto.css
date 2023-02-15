@@ -1,0 +1,48 @@
+#modifiqueProjeto {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/background-example.jpg");
+
+  height: 100vh;
+  padding: 20px;
+}
+
+#modifiqueProjeto .mPForm {
+  background-color: #fff;
+  max-width: 700px;
+  padding: 20px;
+}
+
+#modifiqueProjeto .mPFormTitle {
+  font-family: serif;
+}
+
+#modifiqueProjeto .mPFormLabel {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+#modifiqueProjeto .mPFormInput,
+#modifiqueProjeto .mPFormTextArea {
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 0;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+#modifiqueProjeto .mPFormInput {
+  height: 40px;
+}
+
+#modifiqueProjeto .textAboveInputs {
+  color: #000;
+  font-weight: bold;
+}
+
+#modifiqueProjeto .mPFormButton {
+  background-color: #000;
+  padding: 15px 50px;
+  color: #fff;
+  text-decoration: underline;
+}
