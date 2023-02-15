@@ -1,0 +1,92 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#comoFunciona .comoFuncionaTitle {
+  font-weight: bold;
+}
+
+#comoFunciona .comoFuncionaTitle,
+#comoFunciona .greenText {
+  text-align: center;
+}
+
+#comoFunciona .greenText {
+  color: #9bcd68;
+}
+
+#comoFunciona .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+#comoFunciona .timelineNumber {
+  padding: 5px 0;
+  border-bottom: 5px dotted #fff;
+  color: #464c40;
+}
+
+#comoFunciona .timelineTitle {
+  color: #9bcd68;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#comoFunciona .right .timelineTitle,
+#comoFunciona .right .timelineDesc {
+  text-align: end;
+}
+
+#comoFunciona .timelineDesc {
+  text-align: justify;
+}
+
+#comoFunciona .timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+#comoFunciona .box {
+  margin: -70px 0;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+#comoFunciona .box::after {
+  content: "";
+  background-image: url("../assets/meters-icon.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #9bcd68;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#comoFunciona .left {
+  left: 0;
+}
+
+#comoFunciona .right {
+  left: 50%;
+}
+
+#comoFunciona .right::after {
+  left: -60px;
+}
+
+#comoFunciona .content {
+  position: relative;
+  border-radius: 6px;
+}
+

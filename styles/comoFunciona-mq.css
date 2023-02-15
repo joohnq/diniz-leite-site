@@ -1,0 +1,203 @@
+@media (min-width: 0px) {
+  #comoFunciona .comoFuncionaTitle {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+
+  #comoFunciona .greenText {
+    font-size: 16px;
+  }
+
+  #comoFunciona .timelineNumber {
+    font-size: 40px;
+  }
+
+  #comoFunciona .timelineTitle {
+    font-size: 14px;
+  }
+  #comoFunciona .timelineDesc {
+    font-size: 12px;
+  }
+
+  #comoFunciona .box::after {
+    width: 80px;
+    height: 80px;
+    right: -0px;
+  }
+
+  #comoFunciona .timeline::after {
+    left: 60px;
+  }
+
+  #comoFunciona .box {
+    padding-left: 80px;
+    padding-right: 20px !important;
+  }
+
+  #comoFunciona .content {
+    padding: 0 0 0 30px;
+  }
+}
+
+@media (min-width: 340px) {
+  #comoFunciona .comoFuncionaTitle {
+    font-size: 24px;
+  }
+
+  #comoFunciona .greenText {
+    font-size: 18px;
+  }
+
+  #comoFunciona .timelineNumber {
+    font-size: 50px;
+  }
+
+  #comoFunciona .timelineTitle {
+    font-size: 18px;
+  }
+  #comoFunciona .timelineDesc {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 400px) {
+  #comoFunciona .comoFuncionaTitle {
+    font-size: 28px;
+  }
+
+  #comoFunciona .greenText {
+    font-size: 20px;
+  }
+
+  #comoFunciona .timelineTitle {
+    font-size: 20px;
+  }
+  #comoFunciona .timelineDesc {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 500px) {
+  #comoFunciona .comoFuncionaTitle {
+    font-size: 34px;
+  }
+
+  #comoFunciona .greenText {
+    font-size: 24px;
+  }
+
+  #comoFunciona .box::after {
+    width: 120px;
+    height: 120px;
+    right: -60px;
+  }
+
+  #comoFunciona .timeline::after {
+    left: 70px;
+  }
+
+  #comoFunciona .box {
+    padding-left: 120px;
+    padding-right: 20px !important;
+  }
+
+  #comoFunciona .timelineNumber {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 600px) {
+  #comoFunciona .timeline::after {
+    left: 50%;
+  }
+  #comoFunciona .box {
+    padding: 10px 40px;
+  }
+
+  #comoFunciona .right .timelineNumber {
+    text-align: end;
+  }
+
+  #comoFunciona .left .content {
+    padding: 0 0 0 0;
+  }
+
+  #comoFunciona .right .content {
+    padding: 0 0 0 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #comoFunciona .timeline {
+    margin: 50px auto;
+  }
+
+  #comoFunciona .timelineTitle {
+    text-align: start !important;
+  }
+
+  #comoFunciona .timelineDesc {
+    text-align: justify !important;
+  }
+
+  #comoFunciona .box {
+    width: 100%;
+    padding-right: 25px;
+    margin: -20px 0;
+  }
+  #comoFunciona .box::before {
+    left: 120px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  #comoFunciona .left::after,
+  #comoFunciona .right::after {
+    left: 20px;
+  }
+
+  #comoFunciona .right {
+    left: 0%;
+  }
+}
+@media (min-width: 768px) {
+  #comoFunciona .comoFuncionaTitle {
+    font-size: 40px;
+    padding: 0 50px;
+  }
+
+  #comoFunciona .greenText {
+    font-size: 28px;
+  }
+
+  #comoFunciona .content {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 900px) {
+  #comoFunciona .timelineTitle {
+    font-size: 24px;
+  }
+  #comoFunciona .timelineDesc {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1040px) {
+  #comoFunciona .comoFuncionaTitle {
+    font-size: 50px;
+    padding: 0 50px;
+  }
+
+  #comoFunciona .greenText {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+}
