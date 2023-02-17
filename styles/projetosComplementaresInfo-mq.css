@@ -1,55 +1,55 @@
 @media (min-width: 0px) {
-  .boxTitle {
+  #projetosComplementaresInfo .boxTitle {
     flex-direction: column;
     margin: 30px 10px;
     padding: 0;
   }
 
-  .line {
+  #projetosComplementaresInfo .line {
     width: 100%;
   }
 
-  .accordion-collapse {
+  #projetosComplementaresInfo .accordion-collapse {
     top: 200px;
   }
 
-  .descAbove {
+  #projetosComplementaresInfo .descAbove {
     font-size: 14px;
   }
-  .images {
+  #projetosComplementaresInfo .images {
     height: 20vh;
     background-size: contain;
     background-repeat: no-repeat;
   }
 
-  .square {
+  #projetosComplementaresInfo .square {
     width: 75px;
     height: 75px;
     bottom: 0px;
     left: 0;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     bottom: -260px;
     flex-direction: column;
     gap: 20px;
   }
 
-  .lBButton {
+  #projetosComplementaresInfo .lBButton {
     width: 100%;
     bottom: 0;
   }
 
-  .lBButton img {
+  #projetosComplementaresInfo .lBButton img {
     width: 40px;
   }
 
-  .lBButtonDesc {
+  #projetosComplementaresInfo .lBButtonDesc {
     padding: 10px 30px 10px 20px;
     width: 100%;
   }
 
-  .boxBelowDesc {
+  #projetosComplementaresInfo .boxBelowDesc {
     color: #000;
     text-align: justify;
     font-size: 14px;
@@ -57,148 +57,148 @@
 }
 
 @media (min-width: 340px) {
-  .descAbove {
+  #projetosComplementaresInfo .descAbove {
     font-size: 16px;
   }
-  .images {
+  #projetosComplementaresInfo .images {
     height: 20vh;
     background-size: cover;
   }
 
-  .square {
+  #projetosComplementaresInfo .square {
     width: 150px;
     height: 150px;
     bottom: -75px;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     bottom: -330px;
   }
 
-  .boxBelowDesc {
+  #projetosComplementaresInfo .boxBelowDesc {
     font-size: 16px;
   }
 }
 
 @media (min-width: 400px) {
-  .accordion-button {
+  #projetosComplementaresInfo .accordion-button {
     font-size: 18px;
   }
 
-  .accordion-collapse {
+  #projetosComplementaresInfo .accordion-collapse {
     top: 220px;
   }
-  .images {
+  #projetosComplementaresInfo .images {
     height: 30vh;
   }
 
-  .square {
+  #projetosComplementaresInfo .square {
     width: 150px;
     height: 150px;
     bottom: -50px;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     bottom: -280px;
   }
 }
 
 @media (min-width: 500px) {
-  .accordion-button {
+  #projetosComplementaresInfo .accordion-button {
     font-size: 20px;
   }
 
-  .accordion-collapse {
+  #projetosComplementaresInfo .accordion-collapse {
     top: 220px;
   }
-  .square {
+  #projetosComplementaresInfo .square {
     width: 180px;
     height: 180px;
     bottom: -75px;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     bottom: -200px !important;
     align-items: flex-end !important;
   }
 
-  .lBButton {
+  #projetosComplementaresInfo .lBButton {
     width: 50%;
   }
 }
 
 @media (min-width: 600px) {
-  .accordion-button {
+  #projetosComplementaresInfo .accordion-button {
     font-size: 22px;
   }
 
-  .accordion-collapse {
+  #projetosComplementaresInfo .accordion-collapse {
     top: 230px;
   }
-  .descAbove {
+  #projetosComplementaresInfo .descAbove {
     font-size: 18px;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     bottom: -215px !important;
     align-items: flex-end !important;
   }
 
-  .boxBelowDesc {
+  #projetosComplementaresInfo .boxBelowDesc {
     font-size: 18px;
   }
 }
 @media (min-width: 768px) {
-  .accordion {
+  #projetosComplementaresInfo .accordion {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
   }
-  .accordion-button {
+  #projetosComplementaresInfo .accordion-button {
     font-size: 20px;
   }
 
-  .accordion-collapse {
+  #projetosComplementaresInfo .accordion-collapse {
     top: 50px;
     padding-bottom: 200px !important;
   }
 
-  .descAbove {
+  #projetosComplementaresInfo .descAbove {
     font-size: 18px;
     padding-top: 30px;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     bottom: -185px !important;
     align-items: flex-end !important;
   }
 }
 
 @media (min-width: 900px) {
-  .accordion {
+  #projetosComplementaresInfo .accordion {
     gap: 30px;
   }
 
-  .accordion-button {
+  #projetosComplementaresInfo .accordion-button {
     font-size: 24px;
   }
 
-  .descAbove {
+  #projetosComplementaresInfo .descAbove {
     font-size: 20px;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     bottom: -225px !important;
     align-items: flex-end !important;
   }
 
-  .boxBelowDesc {
+  #projetosComplementaresInfo .boxBelowDesc {
     font-size: 20px;
   }
 }
 
 @media (min-width: 992px) {
-  .images {
+  #projetosComplementaresInfo .images {
     position: relative;
     background: url("../assets/background-example.jpg") center center;
     width: 100%;
@@ -209,14 +209,14 @@
     box-shadow: 550px 70px 0px 70px rgba(0, 0, 0, 1);
   }
 
-  .square {
+  #projetosComplementaresInfo .square {
     width: 300px;
     height: 300px;
     bottom: -100px;
     left: -40px;
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     gap: 50px;
     bottom: -100px !important;
     right: 0;
@@ -224,20 +224,20 @@
     flex-direction: row;
   }
 
-  .lBButton {
+  #projetosComplementaresInfo .lBButton {
     width: 300px;
   }
 
-  .lBButton img {
+  #projetosComplementaresInfo .lBButton img {
     width: 50px;
   }
 
-  .lBButtonDesc {
+  #projetosComplementaresInfo .lBButtonDesc {
     padding: 10px 30px 10px 20px;
     width: 100%;
   }
 
-  .boxBelowDesc {
+  #projetosComplementaresInfo .boxBelowDesc {
     margin-bottom: -20px !important;
     max-width: 600px;
     font-size: 16px;
@@ -246,13 +246,13 @@
 }
 
 @media (min-width: 1040px) {
-  .images {
+  #projetosComplementaresInfo .images {
     -webkit-box-shadow: 550px 70px 0px 70px rgba(0, 0, 0, 1);
     -moz-box-shadow: 550px 70px 0px 70px rgba(0, 0, 0, 1);
     box-shadow: 550px 70px 0px 70px rgba(0, 0, 0, 1);
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     gap: 60px;
     bottom: -100px !important;
     right: 0;
@@ -262,13 +262,13 @@
 }
 
 @media (min-width: 1280px) {
-  .images {
+  #projetosComplementaresInfo .images {
     -webkit-box-shadow: 600px 70px 0px 70px rgba(0, 0, 0, 1);
     -moz-box-shadow: 600px 70px 0px 70px rgba(0, 0, 0, 1);
     box-shadow: 600px 70px 0px 70px rgba(0, 0, 0, 1);
   }
 
-  .buttonText {
+  #projetosComplementaresInfo .buttonText {
     gap: 100px;
     bottom: -100px !important;
     right: 0;
@@ -276,19 +276,19 @@
     flex-direction: row;
   }
 
-  .boxBelowDesc {
+  #projetosComplementaresInfo .boxBelowDesc {
     font-size: 18px;
   }
 }
 
 @media (min-width: 1400px) {
-  .images {
+  #projetosComplementaresInfo .images {
     -webkit-box-shadow: 700px 70px 0px 70px rgba(0, 0, 0, 1);
     -moz-box-shadow: 700px 70px 0px 70px rgba(0, 0, 0, 1);
     box-shadow: 700px 70px 0px 70px rgba(0, 0, 0, 1);
   }
 
-  .boxBelowDesc {
+  #projetosComplementaresInfo .boxBelowDesc {
     font-size: 20px;
   }
 }

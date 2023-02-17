@@ -1,0 +1,125 @@
+@media (min-width: 0px) {
+  .projectTitle {
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+
+  .projectDesc {
+    font-size: 14px;
+  }
+
+  .labelForm {
+    font-size: 14px;
+  }
+
+  .squareMeters {
+    flex-direction: column;
+  }
+
+  .squareMeters > .labelForm {
+    width: 100%;
+  }
+
+  .squareMeters > .inputBox {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .sides {
+    flex-direction: column;
+  }
+
+  .sides > div {
+    flex-direction: column;
+    align-items: stretch !important;
+    width: 100%;
+  }
+
+  .radioCards {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 340px) {
+  .projectTitle {
+    font-size: 40px;
+  }
+  .projectDesc {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .labelForm {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 400px) {
+  .squareMeters {
+    flex-direction: row;
+  }
+
+  .squareMeters > .labelForm {
+    width: 70%;
+  }
+
+  .squareMeters > .inputBox {
+    width: 30%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .projectTitle {
+    font-size: 50px;
+    padding: 0 100px;
+  }
+  .projectDesc {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .labelForm {
+    font-size: 18px;
+  }
+  .squareMeters .labelForm {
+    text-align: center;
+  }
+}
+
+@media (min-width: 600px) {
+}
+@media (min-width: 768px) {
+  .sides {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .sides > div {
+    flex-direction: row;
+    align-items: center !important;
+    width: 100%;
+  }
+
+  .radioCards {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 992px) {
+  .projectDesc {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  .labelForm {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1040px) {
+}
+
+@media (min-width: 1280px) {
+}
