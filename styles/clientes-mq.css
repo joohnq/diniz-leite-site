@@ -1,0 +1,23 @@
+@media (min-width: 0px) {
+  #clientes .clientesTitle {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 340px) {
+  #clientes .clientesTitle {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 400px) {
+  #clientes .clientesTitle {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #clientes .clientesTitle {
+    font-size: 50px;
+  }
+}
