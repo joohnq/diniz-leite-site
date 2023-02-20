@@ -4,11 +4,11 @@
     font-size: 30px;
   }
 
-  .projectDesc {
-    font-size: 14px;
-  }
-
-  .labelForm {
+  .projectDesc,
+  .textTerms,
+  .labelForm,
+  .btnSubmit,
+  .pCButton {
     font-size: 14px;
   }
 
@@ -39,6 +39,10 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .btnSubmit {
+    width: 100%;
+  }
 }
 
 @media (min-width: 340px) {
@@ -49,7 +53,11 @@
     font-size: 16px;
     padding: 0 10px;
   }
-  .labelForm {
+
+  .textTerms,
+  .labelForm,
+  .btnSubmit,
+  .pCButton {
     font-size: 16px;
   }
 }
@@ -78,7 +86,9 @@
     font-size: 18px;
     padding: 0 10px;
   }
-  .labelForm {
+  .textTerms,
+  .labelForm,
+  .btnSubmit {
     font-size: 18px;
   }
   .squareMeters .labelForm {
@@ -89,6 +99,34 @@
 @media (min-width: 600px) {
 }
 @media (min-width: 768px) {
+  body {
+    background-color: #000;
+    position: relative;
+  }
+
+  .greenBar {
+    height: 200px;
+    width: 100%;
+    background-color: #9bcd68;
+    z-index: -1000;
+    position: absolute;
+  }
+
+  .gbOne {
+    top: 500px;
+  }
+
+  .gbTwo {
+    top: 50%;
+  }
+  .gbThree {
+    bottom: -40px;
+  }
+
+  #projetoFormulario {
+    background-color: #fff;
+    margin: 0 60px 40px;
+  }
   .sides {
     flex-direction: row;
     gap: 20px;
@@ -103,6 +141,16 @@
     flex-direction: row;
     gap: 20px;
   }
+
+  .projetosComplementaresArea {
+    flex-direction: row !important;
+    align-items: flex-end !important;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .btnSubmit {
+    width: 50%;
+  }
 }
 
 @media (min-width: 900px) {
@@ -116,9 +164,15 @@
   .labelForm {
     font-size: 20px;
   }
+  .pCButton {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1040px) {
+  .pCButton {
+    padding: 10px 100px;
+  }
 }
 
 @media (min-width: 1280px) {

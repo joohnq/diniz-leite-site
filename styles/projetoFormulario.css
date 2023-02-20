@@ -106,7 +106,7 @@
 
 .enviroments {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 180px);
+  grid-template-columns: repeat(auto-fit, 170px);
   justify-content: center;
   row-gap: 30px;
 }
@@ -137,10 +137,31 @@
   max-width: 800px;
 }
 
-.pCButton{
-    background-color: #000;
-    padding: 10px 100px;
-    color: #fff;
-    text-align: center;
-    text-decoration: underline;
+.projetosComplementaresArea {
+  margin: 30px 0;
+}
+
+.pCButton {
+  text-decoration: underline;
+}
+
+.pCButton,
+.btnSubmit {
+  background-color: #000;
+  padding: 10px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.textTerms {
+  font-weight: bold;
+}
+
+.textTerms a {
+  text-decoration: none;
+  color: #50e0fe;
+}
+
+.btnSubmit {
+  margin-bottom: -20px;
 }
