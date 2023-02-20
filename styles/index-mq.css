@@ -7,16 +7,32 @@
     font-size: 28px;
   }
 
+  #homeCarousel h2.desc-home {
+    width: 40%;
+  }
+
   #homeCarousel .desc-home {
     font-size: 16px;
   }
 
+  #homeCarousel .box-wrapper .fill {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
   #homeCarousel .title-box {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   #homeCarousel .desc-box {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   #build-your-project {
@@ -112,12 +128,16 @@
     font-size: 34px;
   }
 
+  #homeCarousel h2.desc-home {
+    width: 50%;
+  }
+
   #homeCarousel .desc-home {
     font-size: 16px;
   }
 
   #homeCarousel .title-box {
-    font-size: 4px;
+    font-size: 28px;
   }
 
   #homeCarousel .desc-box {
@@ -180,7 +200,7 @@
   }
 
   #projects .card-project {
-    max-width: 400px;
+    max-width: 500px;
   }
 
   #projects .icons img {
@@ -206,8 +226,36 @@
   #homeCarousel .title-main {
     font-size: 50px;
   }
+
+  #homeCarousel h2.desc-home {
+    width: 70%;
+  }
+
   #homeCarousel .desc-home {
     font-size: 24px;
+  }
+
+  #homeCarousel .box-wrapper .border {
+    border: 2px solid #fff;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 15px;
+    width: 400px;
+    height: 270px;
+    background-color: transparent;
+  }
+
+  #homeCarousel .box-wrapper .fill {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    width: 430px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
   }
 
   #build-your-project .title-byp {
@@ -234,6 +282,12 @@
   #projects .cim-desc {
     padding: 10px;
     font-size: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  #homeCarousel .box-wrapper .border {
+    display: none;
   }
 }
 

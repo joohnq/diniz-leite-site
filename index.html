@@ -96,7 +96,9 @@
                   <a class="dropdown-item" href="./sobreNos.html">Sobre Nós</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./comoFunciona.html">Como Funciona</a>
+                  <a class="dropdown-item" href="./comoFunciona.html"
+                    >Como Funciona</a
+                  >
                 </li>
               </ul>
             </li>
@@ -192,7 +194,9 @@
                   <a class="dropdown-item" href="./sobreNos.html">Sobre Nós</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./comoFunciona.html">Como Funciona</a>
+                  <a class="dropdown-item" href="./comoFunciona.html"
+                    >Como Funciona</a
+                  >
                 </li>
               </ul>
             </li>
@@ -215,14 +219,16 @@
           <div class="carousel-item active"></div>
           <div class="carousel-item"></div>
           <div class="box-wrapper">
-            <div class="box-wrapper-below"></div>
-            <h2 class="title-box">Somo um escritório físico e virtual</h2>
-            <p class="desc-box">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              quae praesentium beatae aspernatur. Nobis suscipit soluta optio
-              quisquam error obcaecati inventore officiis voluptatem? Modi sint
-              sequi velit. Perferendis, sed amet.
-            </p>
+            <div class="border"></div>
+            <div class="fill">
+              <h2 class="title-box">Somos um escritório físico e virtual</h2>
+              <p class="desc-box">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                quae praesentium beatae aspernatur. Nobis suscipit soluta optio
+                quisquam error obcaecati inventore officiis voluptatem? Modi
+                sint sequi velit. Perferendis, sed amet.
+              </p>
+            </div>
           </div>
           <div class="wpp-button">
             <img src="assets/wpp-icon.png" alt="Assistente Whatsapp" />
@@ -314,9 +320,9 @@
             aria-expanded="false"
             aria-controls="collapseExample"
           >
-            <h2 class="more-infos-title">Adicione algumas informações  </h2>
+            <h2 class="more-infos-title">Adicione algumas informações</h2>
           </div>
-          <div class="collapse" id="collapseExample">
+          <div class="collapse container" id="collapseExample">
             <div class="mi-cards">
               <div
                 class="card-info-more d-flex flex-row align-items-center justify-content-start gap-2"
@@ -326,9 +332,12 @@
                 </div>
                 <div class="cim-content w-100">
                   <h3 class="cim-title">ÁREA DO PROJETO</h3>
-                  <p class="cim-desc">
-                    DE 50M<sup>2</sup> ATÉ 500M<sup>2</sup>
-                  </p>
+                  <select class="cim-desc" name="cim-desc" id="cim-desc">
+                    <option value="ate150">Até 150m<sup>2</sup></option>
+                    <option value="ate200">Até 200m<sup>2</sup></option>
+                    <option value="ate250">Até 250m<sup>2</sup></option>
+                    <option value="ate500">Até 500m<sup>2</sup></option>
+                  </select>
                 </div>
               </div>
               <div
@@ -339,7 +348,15 @@
                 </div>
                 <div class="cim-content w-100">
                   <h3 class="cim-title">PERFIL DO TERRENO</h3>
-                  <p class="cim-desc">ACLIVE, PLANO OU DECLIVE</p>
+                  <select
+                    class="cim-desc"
+                    name="perfil-do-terreno"
+                    id="perfil-do-terreno"
+                  >
+                    <option value="aclive">ACLIVE</option>
+                    <option value="plano">PLANO</option>
+                    <option value="declive">DECLIVE</option>
+                  </select>
                 </div>
               </div>
               <div
@@ -350,7 +367,13 @@
                 </div>
                 <div class="cim-content w-100">
                   <h3 class="cim-title">QUARTOS</h3>
-                  <p class="cim-desc">QUANTIDADE</p>
+                  <input
+                    class="cim-desc"
+                    type="number"
+                    name="quartos"
+                    id="quartos"
+                    placeholder="QUANTIDADE"
+                  />
                 </div>
               </div>
               <div
@@ -361,7 +384,16 @@
                 </div>
                 <div class="cim-content w-100">
                   <h3 class="cim-title">ÁREA DO TERRENO</h3>
-                  <p class="cim-desc">PADRONIZADO</p>
+                  <select
+                    class="cim-desc"
+                    name="area-do-terreno"
+                    id="area-do-terreno"
+                  >
+                    <option value="7x25">7x25</option>
+                    <option value="7x30">7x30</option>
+                    <option value="12x35">12x35</option>
+                    <option value="todos">TODOS</option>
+                  </select>
                 </div>
               </div>
               <div
@@ -372,7 +404,15 @@
                 </div>
                 <div class="cim-content w-100">
                   <h3 class="cim-title">TIPOLOGIA</h3>
-                  <p class="cim-desc">SOBRADO TÉRREO</p>
+                  <select
+                    class="cim-desc"
+                    name="area-do-terreno"
+                    id="area-do-terreno"
+                  >
+                    <option value="sobrado">SOBRADO</option>
+                    <option value="terreo">TÉRREO</option>
+                    <option value="todos">TODOS</option>
+                  </select>
                 </div>
               </div>
               <div
@@ -383,7 +423,13 @@
                 </div>
                 <div class="cim-content w-100">
                   <h3 class="cim-title">GARAGEM</h3>
-                  <p class="cim-desc">QUANTIDADE</p>
+                  <input
+                    class="cim-desc"
+                    type="number"
+                    name="garagem"
+                    id="garagem"
+                    placeholder="QUANTIDADE"
+                  />
                 </div>
               </div>
             </div>
@@ -405,9 +451,7 @@
               <div class="card-image">
                 <img src="assets/background-example.jpg" alt="IMAGEM" />
               </div>
-              <div
-                class="icons gap-2 my-3"
-              >
+              <div class="icons gap-2 my-3">
                 <div class="m2 d-flex align-items-center gap-1">
                   <img src="assets/meters-icon.png" alt="Metros" />
                   <p class="icon-text">7x25</p>
@@ -436,9 +480,7 @@
               <div class="card-image">
                 <img src="assets/background-example.jpg" alt="IMAGEM" />
               </div>
-              <div
-                class="icons gap-2 my-3"
-              >
+              <div class="icons gap-2 my-3">
                 <div class="m2 d-flex align-items-center gap-1">
                   <img src="assets/meters-icon.png" alt="Metros" />
                   <p class="icon-text">7x25</p>
@@ -467,9 +509,7 @@
               <div class="card-image">
                 <img src="assets/background-example.jpg" alt="IMAGEM" />
               </div>
-              <div
-                class="icons gap-2 my-3"
-              >
+              <div class="icons gap-2 my-3">
                 <div class="m2 d-flex align-items-center gap-1">
                   <img src="assets/meters-icon.png" alt="Metros" />
                   <p class="icon-text">7x25</p>
@@ -498,9 +538,7 @@
               <div class="card-image">
                 <img src="assets/background-example.jpg" alt="IMAGEM" />
               </div>
-              <div
-                class="icons gap-2 my-3"
-              >
+              <div class="icons gap-2 my-3">
                 <div class="m2 d-flex align-items-center gap-1">
                   <img src="assets/meters-icon.png" alt="Metros" />
                   <p class="icon-text">7x25</p>
@@ -529,9 +567,7 @@
               <div class="card-image">
                 <img src="assets/background-example.jpg" alt="IMAGEM" />
               </div>
-              <div
-                class="icons gap-2 my-3"
-              >
+              <div class="icons gap-2 my-3">
                 <div class="m2 d-flex align-items-center gap-1">
                   <img src="assets/meters-icon.png" alt="Metros" />
                   <p class="icon-text">7x25</p>
@@ -560,9 +596,7 @@
               <div class="card-image">
                 <img src="assets/background-example.jpg" alt="IMAGEM" />
               </div>
-              <div
-                class="icons gap-2 my-3"
-              >
+              <div class="icons gap-2 my-3">
                 <div class="m2 d-flex align-items-center gap-1">
                   <img src="assets/meters-icon.png" alt="Metros" />
                   <p class="icon-text">7x25</p>
