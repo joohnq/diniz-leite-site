@@ -1,0 +1,48 @@
+@media (min-width: 0px) {
+  #novaSenha {
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 340px) {
+  #novaSenha .formTitle {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 400px) {
+  #novaSenha .formLabel,
+  #novaSenha .formInput {
+    font-size: 20px;
+  }
+  #novaSenha .formDesc {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 500px) {
+  #novaSenha .formDesc {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #novaSenha .formTitle {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #novaSenha {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1040px) {
+  #novaSenha {
+    justify-content: space-between !important;
+  }
+}

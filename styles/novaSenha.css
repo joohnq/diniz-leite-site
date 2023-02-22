@@ -5,72 +5,50 @@ body {
 }
 
 main,
-#contato {
+#novaSenha {
   height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.logo img {
-  width: 100%;
-}
-
-.right{
-  width: 600px;
-}
-
-.messsage {
-  font-family: serif;
-  color: #fff;
-  margin-bottom: 0 !important;
-}
-
-.contactForm {
+#novaSenha .novaSenhaForm {
   background-color: #dedee0;
   padding: 20px;
   width: 100%;
 }
 
-.formTitle {
+#novaSenha .formTitle {
   font-family: serif;
   margin-bottom: 0 !important;
 }
 
-.inputs,
-.textarea {
+#novaSenha .formDesc {
+  font-weight: bold;
+}
+
+#novaSenha .inputs{
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.formLabel {
+#novaSenha .formLabel {
   font-weight: bold;
   margin: 20px 0 5px;
 }
 
-.formInput,
-.formTextArea {
+#novaSenha .formInput {
   border: 2px solid #000;
   background: transparent;
   width: 100%;
-}
-
-.formInput {
   height: 40px;
 }
 
-.infoContato p {
-  margin-bottom: 0 !important;
-  font-weight: bold;
-}
-
-.btnSubmit{
+#novaSenha .btnSubmit{
   width: 100%;
   background-color: #000;
   padding: 10px 20px;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 150px;
   font-size: 20px;
-}
-
-.socialMedias{
-  margin-top: 30px;
 }

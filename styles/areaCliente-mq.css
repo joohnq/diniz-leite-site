@@ -1,104 +1,77 @@
 @media (min-width: 0px) {
-  #contato {
+  #areaCliente {
     flex-direction: column;
+    justify-content: flex-start !important;
     gap: 30px;
   }
 
-  .right,
-  .left {
+  #areaCliente .right,
+  #areaCliente .left {
     width: 100%;
   }
 
-  .left {
+  #areaCliente .left {
     margin-top: 20px;
   }
 
-  .messsage {
+  #areaCliente .messsage {
     font-size: 16px;
   }
 
-  .right {
+  #areaCliente .right {
     margin-bottom: 20px;
-  }
-
-  .socialMedias {
-    gap: 15px;
-  }
-
-  .socialMedias img {
-    width: 30px;
   }
 }
 
 @media (min-width: 340px) {
-  .formTitle {
+  #areaCliente .formTitle {
     font-size: 40px;
   }
-  .messsage {
+  #areaCliente .messsage {
     font-size: 20px;
   }
 }
 
 @media (min-width: 400px) {
-  .messsage {
+  #areaCliente .messsage {
     font-size: 24px;
   }
 
-  .socialMedias {
-    gap: 20px;
-  }
-
-  .socialMedias img {
-    width: 40px;
-  }
-
-  .formLabel,
-  .formInput {
+  #areaCliente .formLabel,
+  #areaCliente .formInput {
     font-size: 20px;
   }
 }
 
 @media (min-width: 500px) {
-  .messsage {
+  #areaCliente .messsage {
     font-size: 28px;
   }
 }
-
-@media (min-width: 600px) {
-}
-@media (min-width: 768px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (min-width: 900px) {
-}
-
 @media (min-width: 992px) {
-  #contato {
+  #areaCliente {
     flex-direction: row;
     gap: 30px;
   }
-  .left {
+  #areaCliente .left {
     width: 50%;
   }
-  .messsage {
+  #areaCliente .messsage {
     font-size: 24px;
   }
-  .right {
+  #areaCliente .right {
     width: 50%;
   }
 }
 
 @media (min-width: 1040px) {
-  #contato {
+  #areaCliente {
     justify-content: space-between !important;
   }
 }
 
 @media (min-width: 1280px) {
-  .messsage {
+  #areaCliente .messsage {
     font-size: 28px;
   }
 }
