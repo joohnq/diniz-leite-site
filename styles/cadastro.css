@@ -8,7 +8,7 @@ main,
 #cadastro {
   height: 100%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 #cadastro .cadastroForm {
@@ -19,7 +19,7 @@ main,
 
 #cadastro .formTitle {
   font-family: serif;
-  margin-bottom: 0 !important;
+  margin-bottom: 30px;
 }
 
 #cadastro .formDesc {
@@ -31,51 +31,21 @@ main,
   margin-bottom: 0 !important;
 }
 
-.loginIcons {
+#cadastro .loginIcons {
   margin-left: 40px;
 }
 
-.loginIcons img {
-  width: 50px;
+#cadastro .loginIcons img {
+  height: 50px;
 }
 
-.formRadio input[type="radio"] {
+#cadastro .formRadio input[type="radio"] {
   height: 30px;
   width: 30px;
 }
 
-#cadastro .inputs {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 10px;
-  gap: 10px;
-  margin-left: 30px;
-}
-
-#cadastro .inputs > div {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-
-#cadastro .inputs .password {
-  position: relative;
-}
-
-#cadastro .inputs .password p {
-  position: absolute;
-  top: 60px;
-  left: 50px;
-  font-weight: bold;
-}
-
 #cadastro .formLabel {
   font-weight: bold;
-}
-
-#cadastro .inputs .formLabel {
-  text-align: end;
 }
 
 #cadastro .formInput {
@@ -84,32 +54,26 @@ main,
   width: 100%;
   height: 40px;
 }
-/* 
-#cadastro .formInput[name="email"] {
-  margin-left: 40px;
+
+#cadastro .inputs .password {
+  position: relative;
 }
 
-#cadastro .formInput[name="name"] {
-  margin-left: 35px;
+#cadastro .inputs .password p {
+  position: absolute;
+  font-weight: bold;
 }
 
-#cadastro .formInput[name="name"] {
-  margin-left: 35px;
-}
-
-#cadastro .formInput[name="cep"] {
-  margin-left: 10px;
-} */
-
-.btnTerms{
-  margin: 20px 0 0 120px;
+#cadastro .btnTerms {
+  margin: 10px 0 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 #cadastro .buttonSubmit {
-  width: 50%;
   background-color: #000;
-  margin: 0 auto;
-  margin: 150px auto 0;
 }
 
 #cadastro .btnSubmit {

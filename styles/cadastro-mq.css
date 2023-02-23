@@ -1,0 +1,141 @@
+@media (min-width: 0px) {
+  body {
+    height: 100%;
+  }
+
+  #cadastro .formTitle {
+    font-size: 40px;
+  }
+
+  #cadastro .formDesc {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  #cadastro .formRadio {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cadastro .inputs,
+  #cadastro .inputs div {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100% !important;
+    margin-left: 0;
+  }
+
+  #cadastro .inputs div > .formLabel {
+    width: 25%;
+    text-align: start;
+  }
+
+  #cadastro .formLabel {
+    margin: 10px 0 5px;
+    font-size: 14px;
+  }
+
+  #cadastro .formInput {
+    width: 100% !important;
+  }
+
+  #cadastro .inputs .password {
+    margin-bottom: 50px;
+  }
+
+  #cadastro .inputs .password p {
+    top: 80px;
+    left: 0px;
+  }
+
+  #cadastro .btnTerms {
+    margin: 10px 0 10px 0px;
+  }
+}
+
+@media (min-width: 340px) {
+  #cadastro .formTitle {
+    font-size: 50px;
+  }
+  #cadastro .formLabel {
+    margin: 10px 0 5px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 500px) {
+  #cadastro .formLabel,
+  #cadastro .formDesc {
+    font-size: 18px;
+  }
+  #cadastro .formDesc {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #cadastro .formTitle {
+    font-size: 60px;
+  }
+
+  #cadastro .formRadio {
+    flex-direction: row;
+  }
+
+  #cadastro .inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  #cadastro .inputs > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  #cadastro .formLabel {
+    text-align: end;
+  }
+
+  #cadastro .inputs > .formLabel {
+    width: 15%;
+  }
+
+  #cadastro .inputs > .formInput {
+    width: 85%;
+  }
+
+  #cadastro .inputs div > .formLabel {
+    width: 30%;
+    margin-right: 25px;
+    text-align: end;
+  }
+
+  #cadastro .inputs .password {
+    margin-bottom: 0;
+  }
+
+  #cadastro .inputs .password p {
+    top: 50px;
+    left: 120px;
+  }
+  #cadastro .btnTerms {
+    margin: 0px 0 0 100px;
+  }
+
+  #cadastro .buttonSubmit {
+    width: 50%;
+    margin: 70px auto 0;
+  }
+}
+
+@media (min-width: 900px) {
+  #cadastro .btnTerms {
+    margin: 0px 0 0 130px;
+  }
+}
