@@ -36,37 +36,46 @@
     font-size: 16px;
   }
 
-  .detailsItems,
-  .details > div,
-  .itens > div {
+  #projectPlantaInfo .boxTitleProject h2 {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  #projectPlantaInfo .line {
+    width: 20%;
+  }
+
+  #projectPlantaInfo .detailsItems,
+  #projectPlantaInfo .details > div,
+  #projectPlantaInfo .itens > div {
     flex-direction: column;
   }
 
-  .details,
-  .itens,
-  .details div ul,
-  .itens div ul {
+  #projectPlantaInfo .details,
+  #projectPlantaInfo .itens,
+  #projectPlantaInfo .details div ul,
+  #projectPlantaInfo .itens div ul {
     width: 100%;
   }
 
-  .projectSubtitle {
+  #projectPlantaInfo .projectSubtitle {
     margin: 30px 0;
     font-size: 20px;
   }
 
-  .cardItemImage {
+  #projectPlantaInfo .cardItemImage {
     width: 60px;
   }
 
-  .cardItemTitle {
+  #projectPlantaInfo .cardItemTitle {
     font-size: 20px;
   }
 
-  .infosTitle {
+  #projectPlantaInfo .infosTitle {
     font-size: 24px;
   }
 
-  .itemList {
+  #projectPlantaInfo .itemList {
     font-size: 16px;
   }
 }
@@ -88,6 +97,15 @@
   #projectInfo .projectCardDesc {
     padding: 10px 20px 10px 20px;
     font-size: 18px;
+  }
+
+  #projectPlantaInfo .boxTitleProject h2 {
+    width: 70%;
+    font-size: 24px;
+  }
+
+  #projectPlantaInfo .line {
+    width: 30%;
   }
 }
 
@@ -121,11 +139,20 @@
     font-size: 20px;
   }
 
-  .projectSubtitle {
+  #projectPlantaInfo .projectSubtitle {
     font-size: 24px;
   }
-  .cardItemImage {
+  #projectPlantaInfo .cardItemImage {
     width: 70px;
+  }
+
+  #projectPlantaInfo .boxTitleProject h2 {
+    width: 50%;
+    font-size: 28px;
+  }
+
+  #projectPlantaInfo .line {
+    width: 50%;
   }
 }
 
@@ -141,6 +168,15 @@
 
   #projectInfo .projectTitle {
     font-size: 60px;
+  }
+
+  #projectPlantaInfo .boxTitleProject h2 {
+    width: 40%;
+    font-size: 34px;
+  }
+
+  #projectPlantaInfo .line {
+    width: 60%;
   }
 }
 
@@ -185,9 +221,17 @@
     font-size: 20px;
   }
 
-  .detailsItems,
-  .details > div,
-  .itens > div {
+  #projectPlantaInfo .boxTitleProject h2 {
+    width: 30%;
+  }
+
+  #projectPlantaInfo .line {
+    width: 70%;
+  }
+
+  #projectPlantaInfo .detailsItems,
+  #projectPlantaInfo .details > div,
+  #projectPlantaInfo .itens > div {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -257,5 +301,14 @@
   #projectInfo .projectCardDesc {
     padding: 10px 20px 10px 20px;
     font-size: 18px;
+  }
+
+  #projectPlantaInfo .boxTitleProject h2 {
+    width: 30%;
+    font-size: 38px;
+  }
+
+  #projectPlantaInfo .line {
+    width: 70%;
   }
 }
