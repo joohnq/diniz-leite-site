@@ -160,6 +160,14 @@
     width: 100%;
   }
 
+  #projects .icons img {
+    width: 30px;
+  }
+
+  #projects .icons p {
+    font-size: 14px;
+  }
+
   #footer .logo img {
     height: 100px;
   }
@@ -282,6 +290,14 @@
   #projects .cim-desc {
     padding: 10px;
     font-size: 13px;
+  }
+
+  #projects .icons img {
+    width: 40px;
+  }
+
+  #projects .icons p {
+    font-size: 16px;
   }
 }
 

@@ -41,3 +41,40 @@
   font-size: 20px;
   margin-bottom: 0 !important;
 }
+
+
+.projectItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.boxTitleProject h2 {
+  width: 300px;
+}
+
+.line {
+  height: 3px;
+  background-color: #9bcd68;
+  width: 80%;
+}
+
+.cardItem h3,
+.cardItem p {
+  margin-bottom: 0 !important;
+}
+
+
+.cardItemTitle,
+.cardItemDesc {
+  font-weight: bold;
+  text-align: center;
+}
+
+.itemList{
+  font-weight: bold;
+}
+
+

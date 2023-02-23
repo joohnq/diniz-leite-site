@@ -35,6 +35,40 @@
     padding: 10px 20px 10px 20px;
     font-size: 16px;
   }
+
+  .detailsItems,
+  .details > div,
+  .itens > div {
+    flex-direction: column;
+  }
+
+  .details,
+  .itens,
+  .details div ul,
+  .itens div ul {
+    width: 100%;
+  }
+
+  .projectSubtitle {
+    margin: 30px 0;
+    font-size: 20px;
+  }
+
+  .cardItemImage {
+    width: 60px;
+  }
+
+  .cardItemTitle {
+    font-size: 20px;
+  }
+
+  .infosTitle {
+    font-size: 24px;
+  }
+
+  .itemList {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 340px) {
@@ -85,6 +119,13 @@
   #projectInfo .projectCardDesc {
     padding: 10px 20px 10px 20px;
     font-size: 20px;
+  }
+
+  .projectSubtitle {
+    font-size: 24px;
+  }
+  .cardItemImage {
+    width: 70px;
   }
 }
 
@@ -142,6 +183,15 @@
   #projectInfo .projectCardDesc {
     padding: 10px 20px 10px 20px;
     font-size: 20px;
+  }
+
+  .detailsItems,
+  .details > div,
+  .itens > div {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
   }
 }
 

@@ -22,11 +22,11 @@
 #header .logo img {
   width: 100%;
   height: 100%;
-  animation-duration: 2s;
-  animation-name: zoom;
+  animation-duration: 3s;
+  animation-name: square-out-top-left;
 }
 
-/* @keyframes zoom {
+@keyframes square-out-top-left {
   from {
     width: 100%;
     height: 100vh;
@@ -42,7 +42,7 @@
     z-index: 11;
     margin-top: -40px;
   }
-} */
+} 
 
 #header .nav-link {
   text-decoration: underline !important;
