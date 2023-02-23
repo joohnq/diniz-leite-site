@@ -45,8 +45,6 @@
 #projectPlantaInfo .projectItems {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-  justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 
