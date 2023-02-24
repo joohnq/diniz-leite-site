@@ -2,17 +2,38 @@
   #banner .bannerTitle {
     font-size: 28px;
   }
+
+  #demaisProjetos .demaisProjetosTitle {
+    font-size: 26px;
+  }
+
+  #demaisProjetos .demaisProjetosDesc {
+    text-align: center;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 340px) {
   #banner .bannerTitle {
     font-size: 30px;
   }
+
+  #demaisProjetos .demaisProjetosTitle {
+    font-size: 34px;
+  }
+
+  #demaisProjetos .demaisProjetosDesc {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 400px) {
   #banner .bannerTitle {
     font-size: 34px;
+  }
+
+  #demaisProjetos .demaisProjetosTitle {
+    font-size: 38px;
   }
 }
 
@@ -21,7 +42,19 @@
     font-size: 36px;
   }
 
-  
+  #demaisProjetos .demaisProjetosTitle {
+    font-size: 50px;
+  }
+
+  #demaisProjetos .demaisProjetosDesc {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .line{
+    display: none;
+  }
 }
 
 @media (min-width: 600px) {
@@ -39,8 +72,6 @@
   #banner .bannerTitle {
     font-size: 60px;
   }
-
-  
 }
 
 @media (min-width: 1040px) {
