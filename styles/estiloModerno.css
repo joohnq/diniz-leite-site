@@ -1,0 +1,83 @@
+#banner {
+  position: relative;
+}
+#banner div {
+  background: url("../assets/background-example.jpg") center center;
+  filter: brightness(0.3);
+  height: 300px;
+  width: 100vw;
+}
+
+#banner .bannerTitle {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  font-family: serif;
+  margin-bottom: 0 !important;
+}
+
+#estiloModerno {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #0e0a0a;
+  color: #fff;
+  gap: 50px;
+}
+
+#estiloModerno .images {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+
+#estiloModerno .content {
+  position: relative;
+}
+
+#estiloModerno .bigger {
+  background: url("../assets/background-example.jpg");
+}
+
+#estiloModerno .smaller {
+  background: url("../assets/background-example.jpg");
+  margin-left: -30px;
+}
+
+#estiloModerno .contentTitle {
+  font-family: serif;
+}
+
+#estiloModerno .contentTitle.second {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#estiloModerno .contentDesc {
+  color: #d0cfd1;
+}
+
+#estiloModerno .button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 40px;
+}
+
+#estiloModerno .btn-contrate {
+  background-color: transparent;
+  border: 2px solid #eeeee6;
+  width: 200px;
+  height: 100px;
+  padding: 0 20px;
+  border-radius: 100px / 50px;
+}
+
+#estiloModerno .btn-contrate a {
+  color: #eeeee6;
+  text-decoration: none;
+}

@@ -1,0 +1,155 @@
+@media (min-width: 0px) {
+  #banner .bannerTitle {
+    font-size: 28px;
+  }
+  #estiloModerno {
+    flex-direction: column;
+  }
+
+  #estiloModerno .images {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #estiloModerno .content {
+    width: 100%;
+  }
+
+  #estiloModerno .bigger {
+    height: 700px;
+    width: 100%;
+  }
+
+  #estiloModerno .smaller {
+    height: 400px;
+    width: 90%;
+  }
+
+  #estiloModerno .contentTitle {
+    font-size: 25px;
+  }
+
+  #estiloModerno .contentDesc {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 340px) {
+  #banner .bannerTitle {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 400px) {
+  #banner .bannerTitle {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 500px) {
+  #banner .bannerTitle {
+    font-size: 36px;
+  }
+
+  #estiloModerno .contentTitle {
+    font-size: 30px;
+  }
+
+  #estiloModerno .contentDesc {
+    font-size: 24px;
+  }
+
+  #estiloModerno .btn-contrate a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  #banner.bannerTitle {
+    font-size: 40px;
+  }
+  #estiloModerno .smaller {
+    height: 400px;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  #banner .bannerTitle {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #banner .bannerTitle {
+    font-size: 60px;
+  }
+
+  #estiloModerno {
+    flex-direction: row;
+  }
+
+  #estiloModerno .content {
+    width: 40%;
+  }
+
+  #estiloModerno .images {
+    flex-direction: row;
+    width: 60%;
+  }
+
+  #estiloModerno .bigger {
+    height: 700px;
+    width: 60%;
+  }
+
+  #estiloModerno .smaller {
+    height: 400px;
+    width: 40%;
+  }
+
+  #estiloModerno .contentDesc::first-letter {
+    margin-left: 100px;
+  }
+
+  #estiloModerno .contentTitle {
+    font-size: 28px;
+  }
+
+  #estiloModerno .contentDesc {
+    font-size: 18px;
+  }
+
+  #estiloModerno .btn-contrate a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1040px) {
+    #estiloModerno .contentTitle {
+    font-size: 38px;
+  }
+
+  #estiloModerno .contentDesc {
+    font-size: 20px;
+  }
+
+  #estiloModerno .btn-contrate a {
+    font-size: 20px;
+  }
+
+  #estiloModerno .content {
+    width: 50%;
+  }
+
+  #estiloModerno .images {
+    flex-direction: row;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #banner .bannerTitle {
+    font-size: 70px;
+  }
+}
