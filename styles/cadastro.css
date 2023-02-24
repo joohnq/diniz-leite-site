@@ -44,6 +44,29 @@ main,
   width: 30px;
 }
 
+.inputsRadio input, .btnTerms input{
+  display: none;
+}
+
+.inputsRadio input + label:before, .btnTerms input + label:before{
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #dedee0;
+  border: 4px solid #000;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.inputsRadio input:checked + label:before, .btnTerms input:checked + label:before{
+  content: '';
+  background-color: #000;
+}
+
+
 #cadastro .formLabel {
   font-weight: bold;
 }
