@@ -18,7 +18,7 @@
   margin-bottom: 0 !important;
 }
 
-.title{
+#dimensionamentoEstrutural .title {
   position: relative;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@
 #dimensionamentoEstrutural .dimensionamentoEstruturalTitle {
   font-family: serif;
   text-align: center;
-  margin-bottom: 0px !important;
+  margin-bottom: 20px !important;
   margin-top: 40px;
 }
 
@@ -36,11 +36,11 @@
   text-align: center;
   margin-bottom: 0;
   background-color: #fff;
-  padding: 10px 0;
-  width: 450px;
+  padding: 10px;
+  max-width: 500px;
 }
 
-.line{
+#dimensionamentoEstrutural .line {
   height: 3px;
   width: 100%;
   right: 0;
@@ -51,3 +51,69 @@
   transform: translate(0, -50%);
   z-index: -1;
 }
+
+#dimensionamentoEstrutural .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+#dimensionamentoEstrutural .images img {
+  width: 100%;
+}
+
+#dimensionamentoEstrutural .dimensionamentoEstruturalSubtitle {
+  font-weight: bold;
+}
+
+#benefitsConsequences {
+  background-color: #000;
+  padding: 40px 0;
+}
+
+#benefitsConsequences .benefits,
+#benefitsConsequences .consequences {
+  display: flex;
+}
+
+#benefitsConsequences .benefits {
+  background-color: #dedee0;
+}
+
+#benefitsConsequences .benefitsList {
+  list-style-image: url("../assets/ul-list-green.png");
+}
+
+#benefitsConsequences .consequencesList {
+  list-style-image: url("../assets/ul-list-black.png");
+}
+
+#benefitsConsequences .consequences {
+  background-color: #9bcd68;
+  justify-content: flex-end;
+}
+
+#benefitsConsequences .contrate {
+  background: transparent;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 80px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 120px / 50px;
+}
+
+#benefitsConsequences .btnContrate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#benefitsConsequences .benefitsConsequencesDesc{
+  color: #fff;
+}
+
+
