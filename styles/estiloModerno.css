@@ -72,9 +72,9 @@
   background-color: transparent;
   border: 2px solid #eeeee6;
   width: 200px;
-  height: 100px;
-  padding: 0 20px;
-  border-radius: 100px / 50px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 120px / 50px;
 }
 
 #estiloModerno .btn-contrate a {
