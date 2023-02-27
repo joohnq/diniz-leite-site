@@ -1,0 +1,67 @@
+#banner {
+  position: relative;
+}
+#banner div {
+  background: url("../assets/background-example.jpg") center center;
+  filter: brightness(0.3);
+  height: 300px;
+  width: 100%;
+}
+
+#banner .bannerTitle {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  font-family: serif;
+  margin-bottom: 0 !important;
+}
+
+#benefitsConsequences {
+  background-color: #000;
+  padding: 40px 0;
+}
+
+#benefitsConsequences .benefits,
+#benefitsConsequences .consequences {
+  display: flex;
+}
+
+#benefitsConsequences .benefits {
+  background-color: #dedee0;
+}
+
+#benefitsConsequences .benefitsList {
+  list-style-image: url("../assets/ul-list-green.png");
+}
+
+#benefitsConsequences .consequencesList {
+  list-style-image: url("../assets/ul-list-black.png");
+}
+
+#benefitsConsequences .consequences {
+  background-color: #9bcd68;
+  justify-content: flex-end;
+}
+
+#benefitsConsequences .contrate {
+  background: transparent;
+  padding: 10px;
+  margin: 10px;
+  width: 200px; 
+   height: 80px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 120px / 50px;
+}
+
+#benefitsConsequences .btnContrate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#benefitsConsequences .benefitsConsequencesDesc {
+  color: #fff;
+}

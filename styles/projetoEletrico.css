@@ -1,0 +1,10 @@
+#projetoEletrico{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    background-color: #0e0a0a;
+    color: #fff;
+    padding: 50px 0 20px;
+}

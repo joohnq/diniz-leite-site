@@ -1,0 +1,57 @@
+@media (min-width: 0px) {
+  #projetoEletrico {
+    flex-direction: column;
+  }
+
+  #projetoEletrico .image img {
+    width: 100%;
+  }
+
+  #projetoEletrico .content {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 340px) {
+}
+
+@media (min-width: 400px) {
+}
+
+@media (min-width: 500px) {
+  .projetoEletricoDesc {
+    font-size: 18px;
+  }
+
+  .projetoEletricoDesc::first-letter {
+    margin-left: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .projetoEletricoDesc {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .projetoEletricoDesc {
+    font-size: 20px;
+  }
+  #projetoEletrico {
+    flex-direction: row;
+  }
+
+  #projetoEletrico .image {
+    width: 60%;
+  }
+
+  #projetoEletrico .content {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #projetoEletrico .content {
+    padding-right: 20px;
+  }
+}

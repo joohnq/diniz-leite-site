@@ -1,0 +1,158 @@
+@media (min-width: 0px) {
+  #banner .bannerTitle {
+    font-size: 24px;
+  }
+
+  .benefitsConsequencesDesc {
+    font-size: 16px;
+  }
+
+  #benefitsConsequences .benefits,
+  #benefitsConsequences .consequences {
+    flex-direction: column;
+  }
+
+  #benefitsConsequences .benefitsList,
+  #benefitsConsequences .consequencesList {
+    padding-top: 20px;
+  }
+
+  #benefitsConsequences .benefitsList li,
+  #benefitsConsequences .consequencesList li {
+    padding-right: 10px;
+  }
+
+  #benefitsConsequences .benefits .ilustration img,
+  #benefitsConsequences .consequences .ilustration img {
+    width: 100%;
+  }
+
+  #benefitsConsequences .listTitle {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+  }
+
+  #benefitsConsequences .list li {
+    font-size: 16px;
+  }
+
+  .liBtn{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 340px) {
+  #banner .bannerTitle {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 400px) {
+  #banner .bannerTitle {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 500px) {
+  #banner .bannerTitle {
+    font-size: 36px;
+  }
+
+  #benefitsConsequences .benefitsConsequencesDesc {
+    font-size: 18px;
+  }
+
+  #benefitsConsequences .listTitle {
+    font-size: 22px;
+  }
+
+  #benefitsConsequences .list li {
+    font-size: 18px;
+  }
+
+  .liBtn{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 600px) {
+  #banner.bannerTitle {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  #banner .bannerTitle {
+    font-size: 50px;
+  }
+
+  #benefitsConsequences .benefitsConsequencesDesc {
+    font-size: 20px;
+  }
+
+  #benefitsConsequences .benefitsConsequencesDesc::first-letter {
+    margin-left: 50px;
+  }
+
+  #benefitsConsequences .benefits,
+  #benefitsConsequences .consequences {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #benefitsConsequences .consequencesList,
+  .benefitsList {
+    width: 60%;
+  }
+
+  #benefitsConsequences .ilustration {
+    width: 40%;
+  }
+
+  #benefitsConsequences .listTitle {
+    font-size: 24px;
+  }
+
+  #benefitsConsequences .list li {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #banner .bannerTitle {
+    font-size: 60px;
+  }
+
+  #benefitsConsequences .benefits,
+  #benefitsConsequences .consequences {
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
+
+  #benefitsConsequences .listTitle {
+    font-size: 28px;
+    margin-left: 10px;
+  }
+
+  #benefitsConsequences .list li {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #banner .bannerTitle {
+    font-size: 70px;
+  }
+
+  #benefitsConsequences .listTitle {
+    font-size: 38px;
+    margin-left: 10px;
+  }
+
+  #benefitsConsequences .list li {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+}
