@@ -1,37 +1,26 @@
 @media (min-width: 0px) {
-  .projetoHidraulicoDescBelow {
+  #projetoHidraulico .projetoHidraulicoDescBelow {
     width: 100%;
     color: #000;
   }
-  .image {
+  #projetoHidraulico .image {
     margin-bottom: 30px;
   }
 }
 
-@media (min-width: 340px) {
-}
-
-@media (min-width: 400px) {
-}
-
-@media (min-width: 500px) {
-}
-
-@media (min-width: 600px) {
-}
 @media (min-width: 768px) {
-  .image {
+  #projetoHidraulico .image {
     -webkit-box-shadow: 400px 150px 0px 70px rgba(0, 0, 0, 1);
     -moz-box-shadow: 400px 150px 0px 70px rgba(0, 0, 0, 1);
     box-shadow: 400px 120px 0px 70px rgba(0, 0, 0, 1);
     margin-bottom: 220px;
   }
 
-  .projetoHidraulicoDesc {
+  #projetoHidraulico .projetoHidraulicoDesc {
     font-size: 18px;
   }
 
-  .projetoHidraulicoDescBelow {
+  #projetoHidraulico .projetoHidraulicoDescBelow {
     color: #fff;
     width: 50%;
     position: absolute;
@@ -40,47 +29,35 @@
   }
 }
 
-@media (max-width: 768px) {
-}
-
-@media (min-width: 900px) {
-}
-
 @media (min-width: 992px) {
-  .image {
+  #projetoHidraulico .image {
     -webkit-box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
     -moz-box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
     box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
     margin-bottom: 300px;
   }
-  .projetoHidraulicoDesc {
+  #projetoHidraulico .projetoHidraulicoDesc {
     font-size: 20px;
   }
-  .projetoHidraulicoDescBelow {
+  #projetoHidraulico .projetoHidraulicoDescBelow {
     font-size: 18px;
   }
 }
 
-@media (min-width: 1040px) {
-}
-
 @media (min-width: 1200px) {
-  .image {
+  #projetoHidraulico .image {
     -webkit-box-shadow: 600px 150px 0px 70px rgba(0, 0, 0, 1);
     -moz-box-shadow: 600px 150px 0px 70px rgba(0, 0, 0, 1);
     box-shadow: 600px 120px 0px 70px rgba(0, 0, 0, 1);
     margin-bottom: 300px;
   }
-  .projetoHidraulicoDescBelow {
-    font-size:20px;
+  #projetoHidraulico .projetoHidraulicoDescBelow {
+    font-size: 20px;
   }
 }
 
-@media (min-width: 1280px) {
-}
-
 @media (min-width: 1400px) {
-  .image {
+  #projetoHidraulico .image {
     -webkit-box-shadow: 700px 150px 0px 70px rgba(0, 0, 0, 1);
     -moz-box-shadow: 700px 150px 0px 70px rgba(0, 0, 0, 1);
     box-shadow: 700px 120px 0px 70px rgba(0, 0, 0, 1);

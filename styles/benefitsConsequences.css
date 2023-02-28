@@ -45,14 +45,22 @@
   justify-content: flex-end;
 }
 
+#benefitsConsequences .benefits .contrate {
+  color: #000;
+  border: 1px solid #000;
+}
+
+#benefitsConsequences .consequences .contrate {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
 #benefitsConsequences .contrate {
   background: transparent;
   padding: 10px;
   margin: 10px;
-  width: 200px; 
-   height: 80px;
-  color: #fff;
-  border: 1px solid #fff;
+  width: 200px;
+  height: 80px;
   border-radius: 120px / 50px;
 }
 

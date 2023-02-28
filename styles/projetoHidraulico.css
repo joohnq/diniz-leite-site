@@ -4,15 +4,15 @@
   margin-top: 30px;
 }
 
-.image {
+#projetoHidraulico .image {
   width: 100%;
   position: relative;
 }
 
-.image img {
+#projetoHidraulico .image img {
   width: 100%;
 }
 
-.projetoHidraulicoDescBelow {
+#projetoHidraulico .projetoHidraulicoDescBelow {
   margin-bottom: 0 !important;
 }

@@ -1,0 +1,115 @@
+@media (min-width: 0px) {
+  #levantamentoTopografico .image {
+    margin-bottom: 100px;
+  }
+
+  .boxCircle {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+  }
+
+  .rectangle {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #9bcd68;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 500px) {
+  .boxCircle {
+    bottom: -100px;
+    left: 0;
+  }
+
+  .rectangle {
+    width: 120px;
+    height: 150px;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  #levantamentoTopografico .image {
+    -webkit-box-shadow: 400px 50px 0px 50px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 400px 50px 0px 50px rgba(0, 0, 0, 1);
+    box-shadow: 400px 50px 0px 50px rgba(0, 0, 0, 1);
+    margin-bottom: 150px;
+  }
+
+  #levantamentoTopografico .levantamentoTopograficoDesc {
+    font-size: 18px;
+  }
+
+  .boxCircle {
+    bottom: -80px;
+    left: 0;
+  }
+
+  .rectangle {
+    width: 120px;
+    height: 150px;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  #levantamentoTopografico .image {
+    -webkit-box-shadow: 500px 50px 0px 50px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 500px 50px 0px 50px rgba(0, 0, 0, 1);
+    box-shadow: 500px 50px 0px 50px rgba(0, 0, 0, 1);
+    margin-bottom: 150px;
+  }
+  #levantamentoTopografico .levantamentoTopograficoDesc {
+    font-size: 20px;
+  }
+
+  .boxCircle {
+    bottom: -100px;
+    left: 0;
+  }
+
+  .rectangle {
+    width: 170px;
+    height: 180px;
+  }
+
+  .circle {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #levantamentoTopografico .image {
+    -webkit-box-shadow: 600px 50px 0px 50px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 600px 50px 0px 50px rgba(0, 0, 0, 1);
+    box-shadow: 600px 50px 0px 50px rgba(0, 0, 0, 1);
+    margin-bottom: 150px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #levantamentoTopografico .image {
+    -webkit-box-shadow: 700px 50px 0px 50px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 700px 50px 0px 50px rgba(0, 0, 0, 1);
+    box-shadow: 700px 50px 0px 50px rgba(0, 0, 0, 1);
+    margin-bottom: 250px;
+  }
+}
