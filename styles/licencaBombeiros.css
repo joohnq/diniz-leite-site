@@ -1,0 +1,23 @@
+.colorGreen{
+    color: #9bcd68 !important;
+}
+
+#licencaBombeiros .licencaBombeirosDesc {
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  #licencaBombeiros .image {
+    width: 100%;
+    position: relative;
+  }
+  
+  #licencaBombeiros .image img {
+    width: 100%;
+  }
+  
+  #licencaBombeiros .licencaBombeirosDescBelow {
+    margin-bottom: 0 !important;
+  }
+  

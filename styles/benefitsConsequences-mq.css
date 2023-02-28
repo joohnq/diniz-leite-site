@@ -18,7 +18,8 @@
   }
 
   #benefitsConsequences .benefitsList > li,
-  #benefitsConsequences .consequencesList > li {
+  #benefitsConsequences .consequencesList > li,
+  #benefitsConsequences .liBtn div > li {
     padding-right: 10px;
   }
 
@@ -32,11 +33,12 @@
     margin: 0 0 20px 0;
   }
 
-  #benefitsConsequences .list > li {
+  #benefitsConsequences .list > li,
+  #benefitsConsequences .liBtn div > li {
     font-size: 16px;
   }
 
-  .liBtn{
+  .liBtn {
     flex-direction: column;
   }
 }
@@ -66,11 +68,12 @@
     font-size: 22px;
   }
 
-  #benefitsConsequences .list > li {
+  #benefitsConsequences .list > li,
+  #benefitsConsequences .liBtn div > li {
     font-size: 18px;
   }
 
-  .liBtn{
+  .liBtn {
     flex-direction: row;
   }
 }
@@ -113,7 +116,8 @@
     font-size: 24px;
   }
 
-  #benefitsConsequences .list > li {
+  #benefitsConsequences .list > li,
+  #benefitsConsequences .liBtn div > li {
     font-size: 16px;
   }
 }
@@ -135,7 +139,8 @@
     margin-left: 10px;
   }
 
-  #benefitsConsequences .list > li {
+  #benefitsConsequences .list > li,
+  #benefitsConsequences .liBtn div > li {
     font-size: 18px;
     margin-left: 10px;
   }
@@ -151,7 +156,8 @@
     margin-left: 10px;
   }
 
-  #benefitsConsequences .list > li {
+  #benefitsConsequences .list > li,
+  #benefitsConsequences .liBtn div > li {
     font-size: 24px;
     margin-left: 10px;
   }

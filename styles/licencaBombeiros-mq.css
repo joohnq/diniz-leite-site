@@ -1,0 +1,66 @@
+@media (min-width: 0px) {
+    #licencaBombeiros .licencaBombeirosDescBelow {
+      width: 100%;
+      color: #000;
+    }
+    #licencaBombeiros .image {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #licencaBombeiros .image {
+      -webkit-box-shadow: 400px 150px 0px 70px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 400px 150px 0px 70px rgba(0, 0, 0, 1);
+      box-shadow: 400px 120px 0px 70px rgba(0, 0, 0, 1);
+      margin-bottom: 220px;
+    }
+  
+    #licencaBombeiros .licencaBombeirosDesc {
+      font-size: 18px;
+    }
+  
+    #licencaBombeiros .licencaBombeirosDescBelow {
+      color: #fff;
+      width: 50%;
+      position: absolute;
+      right: 0;
+      bottom: -160px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #licencaBombeiros .image {
+      -webkit-box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
+      box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
+      margin-bottom: 300px;
+    }
+    #licencaBombeiros .licencaBombeirosDesc {
+      font-size: 20px;
+    }
+    #licencaBombeiros .licencaBombeirosDescBelow {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #licencaBombeiros .image {
+      -webkit-box-shadow: 600px 150px 0px 70px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 600px 150px 0px 70px rgba(0, 0, 0, 1);
+      box-shadow: 600px 120px 0px 70px rgba(0, 0, 0, 1);
+      margin-bottom: 300px;
+    }
+    #licencaBombeiros .licencaBombeirosDescBelow {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    #licencaBombeiros .image {
+      -webkit-box-shadow: 700px 150px 0px 70px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 700px 150px 0px 70px rgba(0, 0, 0, 1);
+      box-shadow: 700px 120px 0px 70px rgba(0, 0, 0, 1);
+    }
+  }
+  

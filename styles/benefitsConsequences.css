@@ -19,7 +19,7 @@
 }
 
 #benefitsConsequences {
-  background-color: #000;
+  background-color: #040409;
   padding: 40px 0;
 }
 
@@ -32,11 +32,12 @@
   background-color: #dedee0;
 }
 
-#benefitsConsequences .benefitsList .list > li{
+#benefitsConsequences .benefitsList .list > li {
   list-style-image: url("../assets/ul-list-green.png");
 }
 
-#benefitsConsequences .consequencesList .list > li{
+#benefitsConsequences .consequencesList .list > li,
+#benefitsConsequences .liBtn div > li {
   list-style-image: url("../assets/ul-list-black.png");
 }
 
