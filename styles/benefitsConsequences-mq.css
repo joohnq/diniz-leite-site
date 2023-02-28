@@ -17,8 +17,8 @@
     padding-top: 20px;
   }
 
-  #benefitsConsequences .benefitsList li,
-  #benefitsConsequences .consequencesList li {
+  #benefitsConsequences .benefitsList > li,
+  #benefitsConsequences .consequencesList > li {
     padding-right: 10px;
   }
 
@@ -32,7 +32,7 @@
     margin: 0 0 20px 0;
   }
 
-  #benefitsConsequences .list li {
+  #benefitsConsequences .list > li {
     font-size: 16px;
   }
 
@@ -66,7 +66,7 @@
     font-size: 22px;
   }
 
-  #benefitsConsequences .list li {
+  #benefitsConsequences .list > li {
     font-size: 18px;
   }
 
@@ -113,7 +113,7 @@
     font-size: 24px;
   }
 
-  #benefitsConsequences .list li {
+  #benefitsConsequences .list > li {
     font-size: 16px;
   }
 }
@@ -135,7 +135,7 @@
     margin-left: 10px;
   }
 
-  #benefitsConsequences .list li {
+  #benefitsConsequences .list > li {
     font-size: 18px;
     margin-left: 10px;
   }
@@ -151,7 +151,7 @@
     margin-left: 10px;
   }
 
-  #benefitsConsequences .list li {
+  #benefitsConsequences .list > li {
     font-size: 24px;
     margin-left: 10px;
   }

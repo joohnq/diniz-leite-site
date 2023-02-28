@@ -32,11 +32,11 @@
   background-color: #dedee0;
 }
 
-#benefitsConsequences .benefitsList {
+#benefitsConsequences .benefitsList .list > li{
   list-style-image: url("../assets/ul-list-green.png");
 }
 
-#benefitsConsequences .consequencesList {
+#benefitsConsequences .consequencesList .list > li{
   list-style-image: url("../assets/ul-list-black.png");
 }
 
