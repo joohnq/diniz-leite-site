@@ -1,0 +1,88 @@
+@media (min-width: 0px) {
+  .projetoHidraulicoDescBelow {
+    width: 100%;
+    color: #000;
+  }
+  .image {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 340px) {
+}
+
+@media (min-width: 400px) {
+}
+
+@media (min-width: 500px) {
+}
+
+@media (min-width: 600px) {
+}
+@media (min-width: 768px) {
+  .image {
+    -webkit-box-shadow: 400px 150px 0px 70px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 400px 150px 0px 70px rgba(0, 0, 0, 1);
+    box-shadow: 400px 120px 0px 70px rgba(0, 0, 0, 1);
+    margin-bottom: 220px;
+  }
+
+  .projetoHidraulicoDesc {
+    font-size: 18px;
+  }
+
+  .projetoHidraulicoDescBelow {
+    color: #fff;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: -160px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 992px) {
+  .image {
+    -webkit-box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
+    box-shadow: 500px 150px 0px 70px rgba(0, 0, 0, 1);
+    margin-bottom: 300px;
+  }
+  .projetoHidraulicoDesc {
+    font-size: 20px;
+  }
+  .projetoHidraulicoDescBelow {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1040px) {
+}
+
+@media (min-width: 1200px) {
+  .image {
+    -webkit-box-shadow: 600px 150px 0px 70px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 600px 150px 0px 70px rgba(0, 0, 0, 1);
+    box-shadow: 600px 120px 0px 70px rgba(0, 0, 0, 1);
+    margin-bottom: 300px;
+  }
+  .projetoHidraulicoDescBelow {
+    font-size:20px;
+  }
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1400px) {
+  .image {
+    -webkit-box-shadow: 700px 150px 0px 70px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 700px 150px 0px 70px rgba(0, 0, 0, 1);
+    box-shadow: 700px 120px 0px 70px rgba(0, 0, 0, 1);
+  }
+}
