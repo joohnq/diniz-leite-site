@@ -3,74 +3,143 @@
     height: 100%;
     background-color: #000;
   }
-  .sobreNosDesc {
+  #sobreNos .sobreNosDesc {
     font-size: 16px;
   }
 
-  .sNListNumber {
+  #sobreNos .sNListNumber {
     font-size: 24px;
   }
 
-  .sNListDesc {
+  #sobreNos .sNListDesc {
     color: #fff;
     font-size: 16px;
+  }
+  .sobreNosCard {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+  }
+
+  .desc-box {
+    font-family: sans-serif;
+    text-align: center;
+
+    font-size: 16px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: #fff;
+
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    left: -10px;
+    margin-bottom: 0 !important;
   }
 }
 
 @media (min-width: 340px) {
-  .sobreNosTitle {
+  #sobreNos .sobreNosTitle {
     font-size: 38px;
   }
 
-  .sNListNumber {
+  #sobreNos .sNListNumber {
     font-size: 28px;
   }
 
-  .sNListDesc {
+  #sobreNos .sNListDesc {
     color: #fff;
+    font-size: 18px;
+  }
+
+  .sobreNosCard {
+    height: 260px;
+  }
+
+  .title-box {
+   font-size: 28px;
+   vertical-align: middle;
+  }
+  .desc-box {
     font-size: 18px;
   }
 }
 
 @media (min-width: 400px) {
-  .sobreNosTitle {
+  #sobreNos .sobreNosTitle {
     font-size: 44px;
   }
-  .sobreNosDesc {
+  #sobreNos .sobreNosDesc {
+    font-size: 18px;
+  }
+
+  .sobreNosCard {
+    height: 220px;
+  }
+
+  .title-box {
+   font-size: 34px;
+  }
+  .desc-box {
     font-size: 18px;
   }
 }
 
 @media (min-width: 500px) {
-  .sobreNosTitle {
+  #sobreNos .sobreNosTitle {
     font-size: 50px;
   }
-  .sobreNosDesc {
+  #sobreNos .sobreNosDesc {
     font-size: 20px;
   }
 
-  .sNListNumber {
+  #sobreNos .sobreNosDesc::first-letter {
+    margin-left: 50px;
+  }
+
+  #sobreNos .sNListNumber {
     font-size: 30px;
   }
 
-  .sNListDesc {
+  #sobreNos .sNListDesc {
     color: #fff;
     font-size: 20px;
   }
+  .sobreNosCard {
+    width: 400px;
+    height: 200px;
+  }
+  .desc-box {
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: #fff;
+
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    left: -10px;
+    margin-bottom: 0 !important;
+  }
 }
 @media (min-width: 768px) {
-  .sobreNosTitle {
+  #sobreNos .sobreNosTitle {
     font-size: 50px;
   }
-  .sobreNosDesc {
+  #sobreNos .sobreNosDesc {
     font-size: 20px;
   }
 
-  .sNListNumber {
+  #sobreNos .sNListNumber {
     font-size: 40px;
   }
 
-  .sNListDesc {
+  #sobreNos .sNListDesc {
     color: #fff;
     font-size: 24px;
   }
@@ -86,30 +155,30 @@
     gap: 30px;
   }
 
-  .sobreNosImage img {
+  #sobreNos .sobreNosImage img {
     width: 100%;
   }
 
-  .sobreNosImage {
+  #sobreNos .sobreNosImage {
     width: 60%;
   }
 
-  .sobreNosContent {
+  #sobreNos .sobreNosContent {
     width: 40%;
   }
 
-  .sobreNosTitle {
+  #sobreNos .sobreNosTitle {
     font-size: 50px;
   }
-  .sobreNosDesc {
+  #sobreNos .sobreNosDesc {
     font-size: 20px;
   }
 
-  .sNListNumber {
+  #sobreNos .sNListNumber {
     font-size: 40px;
   }
 
-  .sNListDesc {
+  #sobreNos .sNListDesc {
     color: #fff;
     font-size: 24px;
   }

@@ -11,34 +11,46 @@ main {
   justify-content: center;
   flex-direction: column;
 }
-.sobreNosImage img {
+#sobreNos .sobreNosImage img {
   width: 100%;
 }
-.sobreNosTitle {
+#sobreNos .sobreNosTitle {
   color: #fff;
   padding: 30px 0;
   border-bottom: 3px solid #769c4f;
   font-family: serif;
 }
 
-.sobreNosDesc {
+#sobreNos .sobreNosDesc {
   color: #fff;
   padding: 30px 0;
   max-width: 800px;
 }
-/* 
-.sobreNosDesc::first-letter {
-  margin-left: 100px;
-} */
 
-.sobreNosList {
+#sobreNos .sobreNosList {
   padding-left: 0 !important;
 }
 
-.sNListNumber {
+#sobreNos .sNListNumber {
   color: #464c40;
 }
 
-.sNListDesc {
+#sobreNos .sNListDesc {
   color: #fff;
+}
+
+.title-box {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.sobreNosCards {
+  background-color: #9bcd68;
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 400px));
+  justify-items: center;
+  justify-content: center;
+  gap: 30px;
 }
