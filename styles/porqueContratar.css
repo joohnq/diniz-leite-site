@@ -1,0 +1,85 @@
+#porqueContratar {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+#porqueContratar .infoTitle {
+  padding: 10px;
+  border-bottom: 2px solid #9bcd68;
+  text-align: end;
+  font-family: serif;
+  font-weight: bold;
+}
+
+#porqueContratar .infoCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#porqueContratar .infoCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  max-width: 300px;
+
+  padding: 20px;
+}
+
+#porqueContratar .infoCard img {
+  width: 100px;
+  height: 100px;
+}
+
+#porqueContratar .infoCardDesc {
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+#porqueContratar .line {
+  background-color: #9bcd68;
+  margin: 0 auto;
+}
+
+#porqueContratar .commentsImage img,
+#porqueContratar .infoImage img {
+  width: 100%;
+}
+
+#porqueContratar .commentsContent {
+  background-color: #000;
+  padding: 20px;
+}
+
+#porqueContratar .commentTitle {
+  color: #fff;
+  font-family: serif;
+  padding: 10px 0 10px 10px;
+  border-left: 1px solid #fff;
+}
+
+#porqueContratar .commentAuthor {
+  color: #9bcd68;
+}
+
+#porqueContratar .commentDesc {
+  color: #fff;
+  padding: 0 10px;
+}
+
+#porqueContratar .commentButton {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#porqueContratar .commentButton a {
+  padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+}

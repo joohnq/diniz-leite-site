@@ -1,0 +1,72 @@
+@media (min-width: 0px) {
+  #portifolio .portifolioTitle {
+    font-size: 26px;
+  }
+
+  #portifolio .portifolioDesc {
+    text-align: center;
+    font-size: 14px;
+  }
+  #portifolio .face {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 340px) {
+  #portifolio .portifolioTitle {
+    font-size: 34px;
+  }
+
+  #portifolio .portifolioDesc {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 400px) {
+  #portifolio .portifolioTitle {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 500px) {
+  #portifolio .portifolioTitle {
+    font-size: 50px;
+  }
+
+  #portifolio .portifolioDesc {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #portifolio .dPCards {
+    grid-template-areas:
+      "fachadas comercial comercial"
+      "theGreenList interiorMotifs areaGourmet";
+  }
+
+  #portifolio .face {
+    width: 102%;
+    height: 300px;
+  }
+
+  .fachadas {
+    grid-area: fachadas;
+  }
+
+  .comercial {
+    grid-area: comercial;
+  }
+
+  .theGreenList {
+    grid-area: theGreenList;
+  }
+  .interiorMotifs {
+    grid-area: interiorMotifs;
+  }
+
+  .areaGourmet {
+    grid-area: areaGourmet;
+  }
+}

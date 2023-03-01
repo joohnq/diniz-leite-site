@@ -1,0 +1,75 @@
+#portifolio .portifolioTitle {
+    font-family: serif;
+    text-align: center;
+    margin-bottom: 0px !important;
+    margin-top: 40px;
+  }
+  
+  #portifolio .portifolioDesc {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #portifolio .dPCards {
+    display: grid;
+    gap: 20px;
+  }
+  
+  #portifolio .dCardTitle {
+    background-color: #000000b0;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #portifolio .dPCard {
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  #portifolio .face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+  }
+  
+  #portifolio .front {
+    background: url("../assets/background-example.jpg") no-repeat center center;
+    background-size: cover;
+    transform: rotateY(180deg);
+    position: relative;
+  }
+  
+  #portifolio .back {
+    background-color: #fff;
+    backface-visibility: hidden;
+    color: #000;
+    padding: 10px;
+  }
+  
+  #portifolio .backText{
+    font-weight: bold;
+  }
+  
+  #portifolio .btnContrate{
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 50px;
+    opacity: 0.7;
+  }
+  
+  #portifolio .flip {
+    transform: rotateY(180deg);
+    transition: 0.5s all;
+  }
+  

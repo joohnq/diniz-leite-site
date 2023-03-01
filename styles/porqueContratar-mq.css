@@ -1,0 +1,138 @@
+@media (min-width: 0px) {
+  #porqueContratar {
+    flex-direction: column;
+  }
+
+  #porqueContratar .infoTitle {
+    padding-right: 20px;
+  }
+
+  #porqueContratar .infoCards {
+    flex-direction: column;
+  }
+
+  #porqueContratar .line {
+    width: 90%;
+    height: 3px;
+    background-color: #9bcd68;
+  }
+  #porqueContratar .infoCard {
+    max-width: 400px;
+    height: 200px;
+    margin: 20px;
+  }
+
+  #porqueContratar .infoCard img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 340px) {
+  #porqueContratar .infoTitle,
+  #porqueContratar .commentTitle {
+    font-size: 30px;
+  }
+  #porqueContratar .infoCardDesc,
+  #porqueContratar .commentAuthor,
+  #porqueContratar .commentDesc {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 400px) {
+  #porqueContratar .infoCard {
+    height: 200px;
+  }
+
+  #porqueContratar .infoTitle {
+    margin-bottom: 40px;
+  }
+
+  #porqueContratar .infoTitle,
+  #porqueContratar .commentTitle {
+    font-size: 34px;
+  }
+  #porqueContratar .infoCardDesc,
+  #porqueContratar .commentAuthor,
+  #porqueContratar .commentDesc {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 500px) {
+  #porqueContratar .infoTitle,
+  #porqueContratar .commentTitle {
+    font-size: 38px;
+  }
+  #porqueContratar .infoCardDesc,
+  #porqueContratar .commentAuthor,
+  #porqueContratar .commentDesc {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #porqueContratar .comments {
+    width: 100%;
+  }
+  #porqueContratar .infoTitle,
+  #porqueContratar .commentTitle {
+    font-size: 60px;
+  }
+  #porqueContratar .infoCardDesc {
+    font-size: 16px;
+  }
+
+  #porqueContratar .commentAuthor,
+  #porqueContratar .commentDesc {
+    font-size: 20px;
+  }
+
+  #porqueContratar .line {
+    width: 5px;
+    height: 180px;
+  }
+  #porqueContratar .infoCards {
+    flex-direction: row;
+    width: 100%;
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #porqueContratar {
+    flex-direction: row;
+  }
+
+  #porqueContratar .commentsImage {
+    height: 50%;
+  }
+
+  #porqueContratar .commentsImage img {
+    height: 100%;
+  }
+  #porqueContratar .commentsContent {
+    height: 50%;
+  }
+
+  #porqueContratar .info {
+    width: 60%;
+  }
+  #porqueContratar .comments {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #porqueContratar .infoCardDesc {
+    font-size: 18px;
+  }
+  #porqueContratar .commentsImage {
+    height: 60%;
+  }
+
+  #porqueContratar .commentsContent {
+    height: 40%;
+  }
+}
